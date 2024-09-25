@@ -1,13 +1,15 @@
 # Keet Mobile App
 
+Release download link: https://github.com/holepunchto/keet-mobile-releases/releases
+
 You can download the latest official Keet Android `apk` here.
 For Play Store/App Store versions and the usage instructions, please visit https://keet.io/
 
-ZH：
+ZH:
 您可以由此下载 Keet 官方提供的安卓 APK 档案。
 若您可以直接使用苹果/安卓商店安装应用，请造访 https://keet.io/
 
-German：
+German:
 Sie können die neueste offizielle Keet Android APK hier herunterladen.
 Für die Versionen im Play Store/App Store und die Anweisungen zur Nutzung besuchen Sie bitte https://keet.io/
 
