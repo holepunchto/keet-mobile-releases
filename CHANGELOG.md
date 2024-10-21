@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.12.1
+- Fix room scroll
+- Fix reactions
+
 ## v3.12
 
 ### Feature
