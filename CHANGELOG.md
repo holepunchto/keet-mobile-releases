@@ -1,41 +1,27 @@
 # Changelog
 
-## v3.12.1
-- Fix room scroll
-- Fix reactions
-
-## v3.12
-
+## v3.13
 ### Feature
-- Error Log with reporting
+- [DEVICES] Enable device rename
 
 ### Improvements
-- Improve room loading speed
-- Reduce memory consumption on chat screen
-- Decrease lag when inputing text
-- Revamp Audio Waveform
-- Use regex to validate prefix for emoji autocomplete
-- Update invite message text
+- Broadcast feed disclaimer page
+- Seed phrase confirm page tooltip and styling
+- Media preview video handling
+- Update translations
 
 ### Fixes
-- Fix various call issues
-- Fix to reduce room screen legacy code & reduce re-renders
-- Fix Profile tab shows network indicator during app startup
-- Fix sound uneven loudness on receiving and sending messages
-- Fix add url sanitize function to room search
-- Fix to remove add reaction button from pinned messages
-- Fix to invalidate chat cache at different time
-- Fix to disable reply text for chat events
-- Fix pin icon moving around when adding reactions
-- Fix messages in chat with decreased opacity
-- Fix file delete error
-- Fix to not download initial video fragment if preview is not defined
-- Fix Profile tab shows red dot for a while during app startup
-- Fix red flicker on profile images
-- Fix don’t show error for expired links
-- Fix to reduce re-renders on Members List
-- Fix to update the chatInput fix position on navBar navigation
-- Fix to not show error when user cancel image selection
+- [FEEDBACK] Feedback form crash on submit
+- Download error on limited-access file
+- Unindexed warning hiding behind chat
+- Profile pics not saved
+- Call speaker selector flickering
+- Error when changing avatar
 
-#### Android specific
-- Fix android crash on pick multiple files
+#### Internal
+- Remove react-native-image-crop-picker patch (#2711)
+- Replaced image picker with expo-image-picker (#2785)
+- Disable admin dashboard for DM (#2777)
+- [ID] Hidden button to remove the device (#2764)
+- Update moderation rules for DM rooms
+- Room name/avatar edit disabled in DM room
