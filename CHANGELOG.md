@@ -1,5 +1,20 @@
 # Changelog
 
+## v3.13.0
+
+### Improvements:
+- Broadcast feed disclaimer page
+- Seed phrase confirm page tooltip and styling
+- Media preview video handling
+
+### Fixes:
+- Fix feedback form crash on submit
+- Fix download error on limited-access file
+- Fixed unindexed warning hiding behind chat
+- Fix profile pics not saved
+- Fix call speaker selector flickering
+- Fix error when changing avatar
+
 ## v3.12.1
 - Fix room scroll
 - Fix reactions
