@@ -1,5 +1,16 @@
 # Changelog
 
+## v3.13.1
+
+### Improvements:
+- Roll out block user
+
+### Fixes:
+
+- Fix recorded videos are in landscape chat bubble
+- Fix unknown error when allowing limited access to profile picture
+- Fix Videos sent from mobile don't have previews on desktop
+
 ## v3.13.0
 
 ### Improvements:
