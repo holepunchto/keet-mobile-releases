@@ -1,5 +1,29 @@
 # Changelog
 
+## v3.14.0
+
+### Features:
+- Direct Message (Limited to newly created room until all rooms upgrade next week)
+- Blind media mirroring for all rooms
+
+### Improvements
+- Faster speed between clicking push notification to app opening
+- Role Management: Admin/mod of the room can change user role directly in room setting
+
+### Fix:
+- Fix unable to toggle mute/unmute
+- Fix able to hear send/receive msg sounds when phone is on silent
+- Fix sending message to a room while in a call turns on loudspeaker
+- Fix inaccurate anchor count with each visit to the lobby
+- Fix sound for send message
+- Fix calls are joined with mic muted
+- Fix limited access to profile picture throws unknown error
+- Fix videos sent from mobile don’t have previews on desktop
+- Fix recorded videos are in landscape chat bubbles
+- Fix feedback form crashes on submit
+- Fix filtering out current room activity toasts
+- Fix message preview text size varies for chat events
+
 ## v3.13.1
 
 ### Improvements:
