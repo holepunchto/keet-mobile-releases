@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.14.1
+
+### Improvements
+- Core update to enable DM for all rooms
+
+### Fix:
+- Fix sharing file menu still shown in the lobby after app go background
+- Fix UI breaking with media & emojis
+
 ## v3.14.0
 
 ### Features:
