@@ -1,5 +1,15 @@
 # Changelog
 
+## v3.14.2
+
+### Fix:
+- Markdown not being sent
+- single apostrophe sent as escaped character
+- & ampersand parsed/expanded in lobby search & can't be deleted
+- emoji gets corrupted or displaced in sentence when sent with line space
+- extra emojis added to mentions
+- Prev message (emoji corrupt) gets removed from chat
+
 ## v3.14.1
 
 ### Improvements
