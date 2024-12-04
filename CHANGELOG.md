@@ -1,5 +1,33 @@
 # Changelog
 
+## v3.15.0
+
+### Features
+- Links can generate preview
+- Room admin can remove member from a room  (for new rooms only until full rollout)
+
+### Improvements
+- Room invite can have image preview
+- Update various designs including DM, Pinned message, call top, unindexed room warning
+- Update device name editing
+- Update mention link handling
+- Update mention username when changed by user
+- Optimize system events
+
+### Fixes
+- Fix inline code viewport spillover
+- Fix various emoji display issues (multiline, single emoji scaling)
+- Fix markdown link formatting
+- Fix Chat message editing
+- Fix message auto scroll and anchor issues
+- Fix image picker error on Android
+- Fix error when long press voice note
+- Fix lobby mentions style
+- Fix leaving and re-entering call, mic is auto-toggled
+- Fix to prevent link clicks in lobby and pin preview
+- Fix open image is unresponsive in chat
+- Fix started a call shown as a message and not an event
+
 ## v3.14.2
 
 ### Fix:
@@ -15,7 +43,7 @@
 ### Improvements
 - Core update to enable DM for all rooms
 
-### Fix:
+### Fixes:
 - Fix sharing file menu still shown in the lobby after app go background
 - Fix UI breaking with media & emojis
 
@@ -29,7 +57,7 @@
 - Faster speed between clicking push notification to app opening
 - Role Management: Admin/mod of the room can change user role directly in room setting
 
-### Fix:
+### Fixes:
 - Fix unable to toggle mute/unmute
 - Fix able to hear send/receive msg sounds when phone is on silent
 - Fix sending message to a room while in a call turns on loudspeaker
