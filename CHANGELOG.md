@@ -1,5 +1,21 @@
 # Changelog
 
+## v3.15.1
+
+### Improvements
+- Align with desktop, show white background button when function disabled
+
+### Fixes
+- Fix crash when received over 200 notifications
+- Fix tiny gifs break the UI when loading
+- Fix DM keyboard freeze & float create room button
+- Fix call loading infinitely when enter from dialog
+- Fix Spinning wheel when getting no results in member list search
+- Fix max-height of invitation/link preview
+- Fix preview for the unsecure url request
+- Fix Custom emoji out of position on lobby preview and toast and single emoji not scaled up
+- Fix message preview + toast displayed in lobby for blocked messages
+
 ## v3.15.0
 
 ### Features
