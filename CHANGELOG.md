@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.15.2
+
+### Fixes
+- Fix unable to view latest message in small rooms
+- Fix miss dimensions when upload image previews (ex: github link previews)
+- Show URL previews sent from desktop
+- Correctly process and render member names with trailing backslash in Chat
+
 ## v3.15.1
 
 ### Improvements
