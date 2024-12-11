@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.15.3
+
+### Fixes
+- Fix send email address but got mixed words
+- Fix show file icon of attached doc
+- Fix dmg file treated as image
+- Removed maxHeight restriction to the file
+
 ## v3.15.2
 
 ### Fixes
