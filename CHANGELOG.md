@@ -1,5 +1,40 @@
 # Changelog
 
+## v3.16.0
+
+### Features
+- Member mute/unmute functionality
+- Implement ignore DMs and context update.
+
+### Improvements
+- New icons to differentiate group chat, DM, and broadcast rooms
+- Improved chat input and button sizes
+- Updated DM request notification UI
+- Enhanced chat event components refactoring
+- Improved link preview processing
+- Enabled chat deceleration rate and windowSize by default
+- Implemented new UI for reporting inappropriate messages
+- Media auto-play when clicking on video
+- App will linger longer in the background based on OS feedback
+
+### Fixes
+- Fixed first message in broadcast room not displayed
+- Corrected chat header loading issue
+- Fixed font scaling across member avatars
+- Fixed account avatar to show member display name
+- Resolved issue with unread messages banner
+- Fixed messages hanging outside screen
+- Corrected iOS notification titles for direct messages
+- Fixed toggling speaker in calls crashing the app
+- Resolved recovery phrase display issues
+- Fixed preview handling for images and files
+- Corrected URL preview styles
+- Fixed offline red dot indicator
+- Addressed chat input and preview issues
+- Fixed member name rendering with trailing backslash
+- Resolved spinning wheel in member list search
+- Fixed tiny GIFs breaking UI
+
 ## v3.15.3
 
 ### Fixes
