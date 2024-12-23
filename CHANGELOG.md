@@ -2,8 +2,10 @@
 
 ## v3.16.1
 
-- 2 crash fixes
-- Fix every message after a report is blurred in message preview
+- Resolved Android crash under certain conditions during app initialization.
+- Addressed core stability to resolve frequent crashes in various scenarios.
+- Fixed an issue where all messages appeared blurred in the preview after reporting a single message.
+- Fixed a crash that occurred during backgrounded calls when receiving push notifications.
 
 ## v3.16.0
 
