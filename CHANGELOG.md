@@ -1,5 +1,10 @@
 # Changelog
 
+## v3.16.1
+
+- 2 crash fixes
+- Fix every message after a report is blurred in message preview
+
 ## v3.16.0
 
 ### Features
