@@ -1,5 +1,52 @@
 # Changelog
 
+## v3.17.0
+
+### Features
+
+- Express profile setup
+- Add SVG, HEIC image file support in chat
+- Add Audio tab in Media & File
+
+### Improvements
+
+- Scroll to latest message with animation
+- Correct condition check when showing unread banner
+- Improved link preview image and text display
+- Preserve new line in Chat
+- Generate Android Audio Waveform properly
+- clicking on in app toast will open to that room
+- Update Onboarding flow
+- Update Setup Name page UI
+- Update Device Link flow UI
+- Update Recover Account flow UI
+- Show offline stat in lobby and room title
+- iOS background refresh
+- Handle invalid mute/unmute operations
+- Show boot date time to stats
+- Upgrade to React Native 0.76
+
+### Fixes
+
+- Enable loud-speaker when turn on cam
+- Other app music doesn’t pause when joining a call on iOS
+- Fix mentions autocomplete
+- Revamp the preview file upload logic
+- Fix Messages hang outside the right of the screen
+- Avoid file opener when saving files
+- Big files download status wrong in android
+- Display full image at MediaPreview
+- Clear file behaviour
+- Fix media files
+- Fix missing audio/video duration and byteLength
+- Fix unable to upload SVG file
+- Fix unable to save SVG on iOS
+- Can create admin invites with no expiry
+- Refactor push subscribe flow
+- Refactor UserProfileScreen
+- Fix exiting full screen when video ends crashes app
+- Scale font properly across all member avatars (已編輯)
+
 ## v3.16.1
 
 - Resolved Android crash under certain conditions during app initialization.
