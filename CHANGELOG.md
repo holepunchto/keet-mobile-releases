@@ -1,5 +1,44 @@
 # Changelog
 
+## v3.18.0
+
+### Features
+
+- Express profile setup for existing users
+
+### Improvements
+
+- Play gif in chat
+- Add autofocus and zoom to the camera component
+- Update new user room tip UI
+- Updated room background
+- Update unsent draft icon color in lobby
+- Update room options UI
+- Update design of audio files
+- Increase chat preview spacing
+- Update avatar size and message preview spacing
+- Update reply message component
+- Update file stats display
+- Update min requirement to Android 9 (sdk 28)
+- Update translations
+
+### Fixes
+
+- Refactor chat events
+- Fix chat form crash on submit
+- Fix android image thumbnail resolution is lower than iOS
+- Fix leave room hangs on black screen
+- Fix video doesn’t stop playing when going back
+- Fix voice only when there’s text
+- Fix room detail information UI
+- Fix getting in-app toast for blocked user
+- Fix media preview disappearing on restart
+- Fix filename toLowerCase issue
+- Fix enable loud-speaker when turning on cam
+- Handle no camera permission on take photo
+- Wait for keyboard to dismiss before open tooltip in room
+- Fix can’t long press copy a url
+
 ## v3.17.0
 
 ### Features
