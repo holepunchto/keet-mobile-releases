@@ -1,5 +1,17 @@
 # Changelog
 
+## v3.18.1
+
+### Improvements
+
+- Improved chat scrolling performance
+- Preserve all new lines in Chat
+
+### Fix
+
+- avoid network handler to run while app is in background
+- fix room info media file entry mismatch
+
 ## v3.18.0
 
 ### Features
