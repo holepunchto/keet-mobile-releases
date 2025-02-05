@@ -1,5 +1,43 @@
 # Changelog
 
+## v3.19.0
+
+### Features
+
+- Reply to media
+
+### Improvements
+
+- Add call timeout alert
+- Improve chat list rendering
+- Improved keyboard interactive in chat
+- Support non-English alphabet character initials
+- Preserve all new lines
+- Update audio message UI
+- Update reply UI
+- Persist pinned message header when keyboard is shown
+- Improved dead zone after adding media to Chatbox
+
+### Fixes
+
+- Fix Sent messages occasionally silently fail to send
+- Fix infinite loading spinner when enter app from background
+- Make tooltips dismissible & increase close timeout
+- Fix avoid scroll to end when edit message
+- Fix ios share files
+- Fix URL parsing and handling in chat input
+- Fix Cant long press copy a url
+- Fix MemberTag condition logic and styling
+- Prevent duplicate reaction bar for voice notes
+- Fix long-press reaction not working
+- Fix reactions cause media to move left
+- Fix return to call button flicker
+- Fix Identity Intro page can’t scroll on small devices issue
+- Fix unindexed room warning icon color
+- Show ‘someone’ when username not found for notification
+- Navigate to room options after downgrade self to peer
+- Centered lobby action button text
+
 ## v3.18.1
 
 ### Improvements
