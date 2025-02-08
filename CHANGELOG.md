@@ -1,5 +1,14 @@
 # Changelog
 
+## v3.19.1
+
+### Fixes
+
+- Fix Unable to add reactions to (last) message (keet-store)
+- Fix lobby flicker while has plenty rooms
+- Fix chat reaction click not responsive
+- Fix compress image warning
+
 ## v3.19.0
 
 ### Features
