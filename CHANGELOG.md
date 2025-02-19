@@ -1,5 +1,43 @@
 # Changelog
 
+## v3.20.0
+
+### Improvements
+- Support copy and paste images into chat input
+- Keep screen on when a call is in progress
+- Improve RTL language support across Android
+- Can access filter bar even offline
+- Improved chat joining room animation
+- Sync no message scenario with desktop
+- Improved Multiple message previews
+- Add extra bottom offset to interactive keyboard
+- Media preview transition improvement
+
+### Fixes
+
+- Fix feedback form crash on submit
+- Fix double timestamp on pinned messages screen
+- Fix pinned messages background is not blurred
+- Hide the reply message on pinned message
+- Fix MKV video handling issue
+- Fix In-view sync issue in chat
+- Update timestamp on focus in the lobby
+- Fix chat reaction click not responsive
+- Fix attached media lost when typing
+- Avoid running intervals when the app is inactive
+- Fix DM profile call button logic
+- Fix spamming create button creates multiple rooms
+- Fix android lobby jumps
+- Fix android textinput scroll indicator
+- Avoid crash when opening a room with an attached SVG image on iOS <= 17
+- Fix stats bar not expandable
+- Fix member name color in replies
+- Disable keyboard swipe gesture for Android
+- Add aiff as unsupported audio type for android
+- Correctly show office related file icons, report icons, and unplayable video files icon
+- Avoid use of thumb to seek audio voice note
+- Drop android devices support for armeabi-v7a architecture
+
 ## v3.19.1
 
 ### Fixes
