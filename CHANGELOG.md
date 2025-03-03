@@ -4,7 +4,7 @@
 
 ### Feature
 
-- Update core with rocksdb
+- Update core with [rocksdb](https://github.com/holepunchto/librocksdb)
 
 ### Improvements
 
