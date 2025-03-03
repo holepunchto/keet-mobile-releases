@@ -1,5 +1,24 @@
 # Changelog
 
+## v3.21.0
+
+### Feature
+
+- Update core with rocksdb
+
+### Improvements
+
+- limit Member list to 5 in Room profile screen
+
+### Fixes
+
+- Fixed potential crash due to media preview
+- Fixed text overflows for svg, link preview events
+- Fixed to not trigger long press deleted message
+- Fixed reset navigation when leave the room
+- [Android] fixed paste action in Chat input field
+- [IOS] Update minimum requirement to IOS 16
+
 ## v3.20.0
 
 ### Improvements
