@@ -12,7 +12,6 @@
 
 ### Fixes
 
-- Fixed voice notes played at different speed sound terrible
 - Fixed potential crash due to media preview
 - Fixed text overflows for svg, link preview events
 - Fixed to not trigger long press deleted message
