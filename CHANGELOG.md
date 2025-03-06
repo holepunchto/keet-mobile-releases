@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.21.1
+
+- Fixed issue where chat gets stuck
+
 ## v3.21.0
 
 ### Feature
