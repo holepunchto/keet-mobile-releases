@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.22.1
+
+- Fixed crash on Startup.
+
 ## v3.22.0
 
 ### Improvements
