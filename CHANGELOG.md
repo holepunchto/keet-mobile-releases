@@ -21,7 +21,6 @@
 ### Fixes
 
 - Push notification issue in core
-- Use type declaration from keet-store
 - DM default avatar not consistent issue
 - Onboarding screen fixes
 - Set avatar color based on member name
