@@ -1,5 +1,63 @@
 # Changelog
 
+## v3.22.0
+
+### Improvements
+
+- Accessibility fixes for small screen devices
+- Rewrite bottom sheets
+- Rewrite onboarding Tooltips
+- Prevent soft reload app when Android config change
+- Update legal TOS
+- Replace unknown with icon in push notification
+- Update loader and chat bubble color
+- Timestamp placement improvement
+- Sync reported message UI with desktop
+- Hide the Reply message on Pinned message
+- handle unsupported files & apply consistent media fileSize
+- Update preview attachment logic
+- Added swiping to dismiss “Call started!” modal
+
+### Fixes
+
+- Push notification issue in core
+- Use type declaration from keet-store
+- DM default avatar not consistent issue
+- Onboarding screen fixes
+- Set avatar color based on member name
+- Android crashes while deleting notification channel
+- Search input jumpiness on RTL layout
+- Fix layout of Version Screen
+- Fix search and pairing UI inconsistency
+- Persist member search state after navigate
+- Notification page title
+- Settings list items text not responsive at large font sizes
+- Item text not responsive in Lobby
+- Reset navigation when leave the room
+- Limit Member list to 5 in compact mode
+- When edit room to have no name kills room
+- Pin message on long press not showing
+- Fix link preview for name decoding
+- Timestamp overlaps some messages
+- Show timestamp inline with reactions
+- Update input font size
+- Chat screen overflows
+- Switch to simple strategy for input text wrapping
+- Increase line number for link preview title
+- Hide reply to on deleted item
+- Restrict center aligned event width
+- Handle deleted on long press
+- Reported message timestamp overlap issue
+- Fix broken profile name layout on pinned message
+- Update parsing links using marked js lexer
+- URL Preview overflowing container
+- System events space issue
+- Voice message accessibility
+- File message inconsistency
+- Loading SVG text overflows container
+- Fix image placeholder layout to prevent content overflow
+- Voice notes on mobile played at different speed
+
 ## v3.21.1
 
 - Fixed issue where chat gets stuck
