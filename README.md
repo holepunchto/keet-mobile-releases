@@ -9,6 +9,9 @@ ZH:
 您可以由此下载 Keet 官方提供的安卓 APK 档案。
 若您可以直接使用苹果/安卓商店安装应用，请造访 https://keet.io/
 
+代理加速从Release下载: 粘贴 Release链接到 https://ghproxy.link
+> 例子 https://ghfast.top/https://github.com/holepunchto/keet-mobile-releases/releases/download/3.23.0/keet-3.23.0-32361.apk
+
 German:
 Sie können die neueste offizielle Keet Android APK hier herunterladen.
 Für die Versionen im Play Store/App Store und die Anweisungen zur Nutzung besuchen Sie bitte https://keet.io/
