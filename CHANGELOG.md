@@ -1,5 +1,85 @@
 # Changelog
 
+## v3.23.0
+
+## 3.23.0 Changelog
+
+### Feature
+
+- [LOBBY] Display unread message count
+- [CHAT] Implement scroll to pinned messages
+- [ROOM] Optimize background image inside room
+- [SYSTEM] Exclude backup on Android and iCloud
+- [SYSTEM] transitioned to bare-kit architecture
+
+### Improvement
+
+- [CHAT] Set max width for chat event file container
+- [CHAT] Handled webp and GIF for preview
+- [CHAT] Sync own bubble color with desktop
+- [CHAT] Update show all button design
+- [CHAT] Replace background image for performance
+- [CHAT] Refactor background image style
+- [CHAT] Code block rendering style
+- [CHAT] Wide image with long file name not fill the available width
+- [FILE] load images in consistent way
+- [LOBBY] disable keyboard autocomplete in Searchbar
+- [LOBBY] DM request to show source before accept
+- [LOBBY] Swipe from left on RTL layout
+- [SYSTEM] Android badge count
+- [SYSTEM] Update onboarding flow
+- [SYSTEM] Update Profile setup flow
+- [SYSTEM] Polish the software version view
+- [SYSTEM] Add show more/less stats button
+- [SYSTEM] Only need to click a confirm button once
+- [SYSTEM] BottomSheet enhancement
+- [SYSTEM] Add rules to Android manifest for < android 12
+- [SYSTEM] Update Recover Account logic
+- Update translation
+
+### Fix
+
+- [CHAT] Manage animate emoji
+- [CHAT] Anchor flashing number on autoscroll
+- [CHAT] Prevent reactions flicker in pinned message
+- [CHAT] Mention highlight based on the role
+- [CHAT] Attempt to align emoji same line
+- [CHAT] Update way to handle long press
+- [CHAT] On scroll to reply/pinned message is covered by pinned banner
+- [CHAT] Inline pin message overlap
+- [CHAT] Force RTL layout on RTL language to avoid timestamp overlap
+- [CHAT] Codeblock alignment withing the text component
+- [CHAT] Timestamp string overlapping message
+- [CHAT] Inline timestamp is vertically centered in message bubble
+- [CHAT] Scroll to bottom after send message
+- [CHAT] Prevent blank space & unread banner for messages from blocked user
+- [CHAT] Adjust show all button padding
+- [CHAT] Show send icon in revert direction in Arabic
+- [CHAT] Correctly position timestamp spacer to avoid overlap
+- [CHAT] Close report message bottomsheet before showing next sheet
+- [CHAT] Pasting image rotates it 90 degrees in RTL langauge
+- [CALL] Mic turns on automatically when you click the "ongoing call" notification
+- [FILE] Parsing shared video dimensions
+- [LOBBY] Update & align status icons
+- [LOBBY] Network status flickering
+- [LOBBY] Message item pressable re-rendering
+- [LOBBY] Profile picture slide up gets stuck
+- [LOBBY] Message preview wrong alignment on RTL layout
+- [LOBBY] Tooltip positioning on fresh install
+- [ROOM] Adjust content height when keyboard is open when creating broadcast room
+- [ROOM] Dismiss room creation page after creating a broadcast room
+- [ROOM] Clicking a room multiple times opens the room multiple times
+- [ROOM] DM avatar faded
+- [ROOM][IOS] Crash when clicking + to join a room
+- [SYSTEM] fix flicker in splash screen
+- [SYSTEM] Update splashscreen background color
+- [SYSTEM] Network status alignment
+- [SYSTEM] Fix Restart app crash
+- [SYSTEM] Create and join modal input border
+- [SYSTEM] Onboarding tool tips are out of alignment
+- [SYSTEM] Fix Edit Profile Bottom sheet stuck
+- [SYSTEM][IOS] Fix statusbar warnings
+
 ## v3.22.1
 
 - Fixed crash on Startup.
