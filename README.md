@@ -1,5 +1,7 @@
 # Keet Mobile App
 
+![Bug Bandits](https://img.shields.io/badge/Bug%20Bandits-🐞-D1E231?style=flat-square&labelColor=D1E231&link=https%3A%2F%2Fgasolin.idv.tw%2Fkeetlink%2F%23key%3Dyryskey4bdbxfkaijjankt1e7wecr4w3bztqhheoqkfcyxcs6qjm6gwxecqng6t778stk8zbdic59a3noutugyn8u4gjbi18wgpeub3f5r%26title%3DBug%2520Bandits%F0%9F%90%9E)
+
 Release download link: https://github.com/holepunchto/keet-mobile-releases/releases
 
 You can download the latest official Keet Android `apk` here.
