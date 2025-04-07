@@ -1,8 +1,19 @@
 # Changelog
 
-## v3.23.0
+## v3.23.2
 
-## 3.23.0 Changelog
+### Fix
+
+- Fixes call sound issue at the start of a call
+
+## v3.23.1
+
+### Fix
+
+- Upgrade rive to v9 due to crash issue
+- Fix crash on launch for android 10 and below
+
+## v3.23.0
 
 ### Feature
 
