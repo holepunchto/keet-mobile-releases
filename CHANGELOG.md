@@ -1,5 +1,58 @@
 # Changelog
 
+## v3.24.0
+
+### Feature
+
+- Incoming calls now ring in DM rooms, with improved call notification handling
+- Swipe left to reply
+- Added support to send multiple emojis, including a new bare emoji
+- Migrated to the new React Native Architecture for improved performance
+
+### Improvement
+
+- Improved group chat creation flow
+- Improved chat performance
+- Pinned messages now have paging, updated visuals, and better timestamp handling
+- Replying to deleted or reported messages is now disabled
+- Scroll improvements and reduced lag while navigating messages
+- Enhanced chat events transition effects
+- Improved emoji rendering, code block layout and input parsing behaviour
+- Updated chat input layout and behaviour
+- Improved positioning of custom emoji in room titles
+- Smarter layout and transitions for media, file previews and clearing cache
+- Improved lobby search, file progress clearing, avatar behaviour and keyboard interaction
+- Adjusts height correctly when creating broadcast rooms
+- Improved handling of notification grouping, sound and fallback behaviour
+- Improved layout and localisation for Arabic and RTL languages
+- Reduced CPU usage
+
+### Fix
+
+- Fixed join link pasting failing silently
+- Fixed room title/description trimming in lobby
+- Fixed under count jumping in lobby
+- Fixed text cutoff in lobby
+- Fixed emoji size too small in some cases in chat
+- Fixed text not clearing after sending in chat
+- Fixed input paddings in chat
+- Fixed flashing send icon in chat
+- Fixed room opens multiple times when tapped repeatedly
+- Fixed mention doesn’t return result
+- Fixed voice note recording delete button breaking the chat input
+- Fixed clearing the app share context on screen focus
+- Fixed fast scroll causing crashes
+- Fixed swiping in lobby issues
+- Fixed edited timestamp alignment and and size
+- Fixed codeblock alignment
+- Fixed case insensitive link parsing
+- Fixed reported message showing as a normal message
+- Fixed videos with no preview and file cache issues
+- Fixed Arabic layout bugs
+- Fixed device link error
+- Fixed layout animation crash
+- Fixed invite QR code
+
 ## v3.23.2
 
 ### Fix
