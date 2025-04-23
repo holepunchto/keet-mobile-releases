@@ -4,9 +4,9 @@
 
 ### Fix
 
-- Fixed UI freeze on creating or joining first room (due to New User Tip)
-- Fixed characters missed on typing
-- Fixed resume/suspend when calls are taking from lockscreen
+- Fixed UI freeze when creating or joining the first room after a clean install
+- Fixed an issue where typing in the chat could cause random backspaces on Android
+- Fixed issue when calls are taking from lockscreen
 
 ## v3.24.0
 
