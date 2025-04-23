@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.24.1
+
+### Fix
+
+- Fixed UI freeze on creating or joining first room (due to New User Tip)
+- Fixed characters missed on typing
+- Fixed resume/suspend when calls are taking from lockscreen
+
 ## v3.24.0
 
 ### Feature
