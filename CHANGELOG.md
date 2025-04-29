@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.24.2
+
+### Fix
+
+- Fixed crashes
+- Fixed suspension deadlock
+- Fixed link preview
+
 ## v3.24.1
 
 ### Fix
