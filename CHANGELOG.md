@@ -1,5 +1,78 @@
 # Changelog
 
+## v3.25.0
+
+### Feature
+
+- Users can now create their unique usernames 
+- Introduced option to name your devices
+- Join rooms by scanning a QR code from the lobby
+- Option to delete your account 
+- Call preview before joining
+- Call timeout alerts
+- Full-screen incoming call on Android
+- Listen to audio files at 1.5x speed
+
+### Improvement
+
+– Improved call join/leave flow and UI consistency
+– Screen sharing now displays at the same size on iOS and Android
+– App checks if a room supports calls before navigating to call settings
+– Handled call ring and hangup events for DMs
+- Prevented Android modal views from overlapping buttons
+- Tapping outside the emoji keyboard now dismisses it
+– Mention colours updated for better visibility
+– Improved reply icon animation
+- Synced chat text input state with UI updates
+- Long-pressing preview images now shows chat options
+- Status bar color now changes dynamically
+– Increased emoji screen size and functionality
+- Custom device names now appear when linking a new device
+- Improved badge count behavior on iOS and Android
+- Broadcast rooms now show only the title, hiding sender name
+- Smoother swipe animation in the lobby
+- Notification badge and mute icon layout improvements in the lobby
+- Emoji picker screen made larger and more functional
+- Custom device names now appear when linking a new device
+- Disabled top right buttons for users who haven't completed onboarding
+- Increased touchable area for top-right icons in the lobby
+- Improved bottom sheet animations
+
+### Fix
+
+- Fixed swipe regression in the lobby
+- Fixed deep links failing to join rooms
+- Fixed emoji picker and text input cursor jumping when switching keyboards
+- Fixed chat input icons being unintentionally disabled
+- Fixed lobby buttons staying in a disabled color state
+- Fixed no activity call button remaining after call ended
+- Handled Autobase writable errors in chat
+- Fixed incorrect mention colors
+- Converted room tips to full-screen views
+- Fixed avatar issue on invitation previews
+- Fixed incorrect handling of filenames with URL extensions
+- Removed unwanted decoding of filenames
+- Fixed username tooltip position in the lobby
+- Fixed emoji keyboard not closing properly
+- Fixed logging after app suspension
+- Fixed Android notification subscription on devices below Tiramisu
+- Fixed issue with pasting join links silently failing
+- Handled call resume/suspend when triggered from lock screen
+- Fixed Arabic layout rendering bugs
+- Prevented double calls to scroll-to-message
+- Fixed UI jumping when returning from Room Members to Admin screen
+- Fixed chat input not clearing after sending messages
+- Audio recording now stops on long-press release
+- Fixed scroll-to-message reliability
+- Tooltip on room action buttons now displays correctly
+- Fixed pinned message header and code block display issues
+- Fixed voice recording lock icon overlapping chat input
+- Fixed mentions not returning results
+- Fixed gesture interaction issues
+- Prevented duplicate room openings on repeated taps
+- Enabled autocorrect in chat input
+- Fixed alignment issues for older messages
+
 ## v3.24.2
 
 ### Fix
