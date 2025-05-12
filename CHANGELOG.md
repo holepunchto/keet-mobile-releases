@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.25.1
+
+### Fix
+
+- Fixed an issue preventing DM room members from manually upgrading the room version.
+- Resolved swarming connection issues by updating internal networking dependencies.
+
 ## v3.25.0
 
 ### Feature
