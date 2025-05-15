@@ -6,10 +6,6 @@
 
 - Fixes scrolling causing crashes on iOS and Android
 
-### Internal
-
-- Upgrades keet-core to 20.12.0 (auto upgrade rooms to ABI v7)
-
 ## v3.25.1
 
 ### Fix
