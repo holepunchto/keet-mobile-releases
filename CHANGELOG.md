@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.25.4
+
+### Fix
+
+- Fixed crash on app launch for Android devices
+
 ## v3.25.3
 
 ### Fix
@@ -10,8 +16,8 @@
 
 ### Fix
 
-- Fixed an issue preventing DM room members from manually upgrading the room version.
-- Resolved swarming connection issues by updating internal networking dependencies.
+- Fixed an issue preventing DM room members from manually upgrading the room version
+- Resolved swarming connection issues by updating internal networking dependencies
 
 ## v3.25.0
 
