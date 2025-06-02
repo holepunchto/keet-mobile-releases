@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.25.5
+
+### Fix
+
+- Fixed batch error logs triggered during room syncing
+
 ## v3.25.4
 
 ### Fix
