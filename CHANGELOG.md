@@ -1,5 +1,56 @@
 # Changelog
 
+## v4.0.0
+
+### Feature
+
+- Keet 4.0.0 introduces a new engine which improves performance, app scalability and sets the ground for a new set of features development.
+
+### Improvement
+
+- Faster room loading with optimised icons and image-preview caching.
+- Media previews respect maximum image size to save bandwidth.
+- Added a system-update banner to keep you informed of important upgrades.
+- Cleaner room creation flow and refined DM request handling.
+- Down arrow and room avatar colours match desktop application.
+- Bottom tab bar is now hidden until onboarding is complete.
+- Clearer username error messages and progress indicators on slow networks.
+- Better feedback form now includes your username automatically
+- Call experience tweaks: hangs up cleanly; DM ring logic improved; Android auto-end in background.
+- Introduced hang-up icon for when call ends in rooms.
+- Device naming screen now auto focuses the input field.
+- Updated confirm device screen.
+- Software version list now shows Hyperdiscovery and lists WebRTC as keet-webrtc.
+- Refreshed onboarding pages and UI text updates.
+- Improved audio record UX and many 
+
+### Fix
+
+- Fixed avatar rendering issues.
+- Removed grey bars at the top of several pages.
+- Stopped the tooltip from appearing when the username is already set.
+- Aligned the error-log message-field layout.
+- Resolved cursor and emoji picker jumps when switching between emoji and keyboard input.
+- Corrected chat text input width.
+- Restored fullscreen video previews.
+- Fixed image loading status indicators.
+- Adjusted code block spacing for messages sent from mobile.
+- Prevented locked recordings from following you when leaving a room.
+- Fixed a crash when opening a room on Android.
+- Stopped unnecessary FlatList re-renders.
+- Center aligned preview images.
+- Resolved chat UI breakage after double tapping the emoji picker icon.
+- Corrected contentFit on image messages.
+- Ensured pinned messages remain visible during a call.
+- Fixed speaker tooltip content overflow.
+- Calls: fixed orientation breaks, crash when app is killed, call-ring answer now opens the screen.
+- Resolved unrecoverable error when sharing a file from Google Files.
+- Eliminated flicker when searching usernames.
+- Disabled button presses while a tooltip is visible.
+- Fixed Discover Communities being cut off on small devices.
+- Disabled bottom tab presses when no identity is set.
+- Corrected tooltip orientation on tablets.
+
 ## v3.25.5
 
 ### Fix
