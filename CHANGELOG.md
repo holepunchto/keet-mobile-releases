@@ -4,9 +4,9 @@
 
 ### Fix
 
-- Fix performance slowness
-- Fix migration banner stuck
-- Fix broken room
+- Fixed broken legacy v3 room Plan B; now loads without errors or stalls.
+- Fixed performance wakeup loop that was spiking CPU and battery after launch.
+- Fixed migration banner, notice now disappears automatically when the upgrade is done.
 
 ## v4.0.0
 
