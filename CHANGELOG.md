@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.0.1
+
+### Fix
+
+- Fix performance slowness
+- Fix migration banner stuck
+- Fix broken room
+
 ## v4.0.0
 
 ### Feature
