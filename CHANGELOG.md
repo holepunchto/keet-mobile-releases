@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.0.2
+
+### Fix
+
+- Fixed searching room list slows down performance
+- Fixed wrong image preview
+- Fixed migration banner to show progress remaining
+
 ## v4.0.1
 
 ### Fix
