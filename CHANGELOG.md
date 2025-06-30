@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.0.3
+
+### Fix
+
+- Removed the ‘Waiting for other user to accept’ banner for DM request senders.
+- Fixed peer count briefly showing two different numbers when entering a room.
+- Restored mentions in lobby message previews.
+
 ## v4.0.2
 
 ### Fix
