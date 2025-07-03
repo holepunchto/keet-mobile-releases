@@ -1,5 +1,14 @@
 # Changelog
 
+## v4.0.4
+
+### Fix
+
+- Avatars no longer disappear or revert to initials after a call.
+- Rooms you join now sync correctly to all linked devices after leaving and re entering.
+- The user profile view now swaps the DM request button for Chat and Call once your request is sent and accepted.
+- Improved room pairing reliability and removed deadlocks that could stall room connections.
+
 ## v4.0.3
 
 ### Fix
