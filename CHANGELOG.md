@@ -1,5 +1,17 @@
 # Changelog
 
+## v4.0.5
+
+### Fixes
+
+- Fixed a crash that could occur when the app was in the background.
+- Fixed room mirroring completing successfully and room joining.
+- Fixed an issue where the profile setup screen reappeared after migration.
+- Messages sent from a suspended device now reliably appear on Desktop without needing to relaunch the app.
+- Fixed issues preventing users from leaving broadcast rooms.
+- Fixed message rendering in chats reliably.
+- Fixed a bug where search results in the room list appeared in reverse order.
+
 ## v4.0.4
 
 ### Fix
