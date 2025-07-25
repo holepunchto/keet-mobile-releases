@@ -1,5 +1,18 @@
 # Changelog
 
+## v4.1.1
+
+### Fix
+
+- Resolved occasional errors when creating a username.
+- Fixed an issue where setting or editing a username could get stuck until another user triggered a change.
+- Fixed the inability to edit usernames in production.
+- Eliminated large blank spaces appearing in chat and profile screens.
+- Messages no longer shift below the keyboard while typing.
+- Message previews in the lobby now display consistently.
+- Stats bar no longer overlaps the chat box.
+- Scanning a QR code for an existing DM now correctly opens the chat instead of re‑sending a request.
+
 ## v4.1.0
 
 ### Feature
