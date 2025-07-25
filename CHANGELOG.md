@@ -1,8 +1,91 @@
 # Changelog
 
+## v4.1.0
+
+### Feature
+
+- Faster app start up time.
+- Search users through global search field and connect with them via DM.
+- Connect with users via DM by sharing your new profile QR code. 
+- Re‑enter your profile secret seed phrase under settings for improved account recovery.
+
+### Improvement
+
+- Show live byte progress while downloading files.
+- Prevent the phone from sleeping during long file downloads.
+- Added a runtime section to the Software Versions screen.
+- Refreshed share profile screen UI.
+- Improved in app tooltip components and updated overall tooltip styling.
+- Added a loading state for pending username edits.
+- Added medium resolution avatars to profiles.
+- Removed scroll bars from screen views.
+- Improved in app notification handling.
+- Chat badge counter now appears immediately on room entry.
+- Upgraded to Expo 53 and React Native 0.79.
+- Migration banner now shows remaining room count.
+- Emoji keyboard mounts on demand.
+- Updated wording for "Started a call" events.
+- Removed the file delete icon under media & files section.
+- Updated Reactotron custom command parameters.
+
+### Fix
+
+- Files with 0 bytes now display correctly.
+- Edit tag no longer shows on deleted messages.
+- Long emoji strings in after replying to action are now truncated -gracefully.
+- Disabled reactions on reported messages.
+- Multi line messages no longer overlap metadata.
+- Correct input focus border color.
+- Caller name now appears in Android notifications.
+- Finish button remains disabled until account recovery is complete.
+- Lobby state now updates correctly; core starts earlier to avoid delays.
+- Fixed squeezed avatars in the lobby.
+- Added max length validation to the room name field.
+- Correct button logic in DM View.
+- Normalised background style for bottom sheet buttons.
+- Toasts no longer overlap emoji animations on long text.
+- Fixed iOS multi line input focus issue.
+- Upload stats now display during file uploads.
+- Removed initial linear animation in the username search bar.
+- Bottom sheet for message deletion is now smooth.
+- Sending a voice note on iOS no longer triggers errors.
+- Custom Keet emoji notifications now render on Android 4.0.
+- Fixed emoji overflow.
+- Unblocked scroll when the keyboard opens on iOS.
+- Added safe area insets on the Set Username screen.
+- Fixed window metrics type issue.
+- Correct initial safe area on iPad.
+- Resolved chat screen overflow on small displays.
+- Pinned header no longer overlaps content.
+- Correct member name in lobby last message preview.
+- Restored voice note waveforms.
+- Removed DM banner; hidden call button logic adjusted.
+- Resetting a Room ID now works reliably.
+- Reported messages can be unpinned again.
+- Fixed banner text and corresponding tests.
+- Fixed user avatars now appear in @ mentions.
+- Offline indicator now shows while verifying usernames.
+- Fixed toast messages for leave room events.
+- Message send performance improved by show/hide instead of re render.
+- Animated height fixes for bottom sheets.
+- Fixed Android navigation flicker.
+- Fixed keyboard overlapping action buttons.
+- Sending a new voice note no longer blanks earlier notes.
+- Can now join incoming call even without mic permission.
+- Call started icon now matches desktop.
+- Onboarding screens handle orientation changes correctly.
+- Correct flavour suffix in Android builds.
+- Fixed ripple effect on Android navigation bar buttons.
+- Reduced unnecessary FlatList re renders in chat.
+- File preview components now receive the correct fileEntry.
+- Fixed video attachments.
+- Fixed occasional crash on the files screen.
+- Continue button stays disabled if device name is empty.
+- Fixed profile name colour in chat.
+
 ## v4.0.5
 
-### Fixes
+### Fix
 
 - Fixed a crash that could occur when the app was in the background.
 - Fixed room mirroring completing successfully and room joining.
