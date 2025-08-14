@@ -1,5 +1,54 @@
 # Changelog
 
+## v4.2.0
+
+### Feature
+
+- Edit or update your username directly from your profile.
+- File upload progress indicators.
+- Faster image previews via compute-worker integration.
+- View original images and load large previews in chat.
+- Room mute settings now sync across devices.
+
+### Improvement
+
+- Removed Rive for custom emojis and certain layout animations to improve stability.
+- Selected images/videos appear instantly in the chat composer.
+- Anchor pauses when you scroll manually in chat.
+- Improved user experience for large messages in chat.
+- Smoother scrolling in the room list.
+
+### Fix
+
+- Bottom sheet now closes before picking an avatar.
+- Fixed WebP rendering issues on Android.
+- Stabilized the scroll to bottom behavior.
+- Restored link color in chat messages.
+- Fixed truncated links.
+- Fixed avatars appearing as squares.
+- Fixed emoji overflow.
+- Fixed unresponsive scrolling in username search.
+- Corrected avatar border color in the room list.
+- Fixed push notifications showing a null title.
+- Camera and microphone permissions are now requested when needed.
+- Fixed bottom sheet not opening fully after joining via QR.
+- Fixed room icon background color.
+- Updated push notification action UI.
+- Fixed emoji keyboard being dismissed after sending an emoji.
+- Fixed avatars not saving.
+- Fixed reconstruction of shorthand emojis.
+- Fixed media sharing via system share/intents
+- Removed duplicate 'copy' option in the message menu.
+- Fixed sequential DM request handling.
+- Fixed chats occasionally getting stuck.
+- Fixed errors when sending very long messages.
+- Fixed message preview inconsistencies in the lobby.
+- Fixed role permission visibility.
+- Fixed code block layout issues.
+- Fixed notification sound handling.
+- Fixed crashes in the media picker, camera, and file picker.
+- Fixed voice note playback speed button.
+
 ## v4.1.1
 
 ### Fix
