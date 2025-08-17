@@ -2,6 +2,14 @@
 
 ## v4.2.0
 
+### Fix
+
+- Background core errors are now logged instead of showing error banners.
+- Fixed crash when joining certain community rooms.
+- Fixed Italian translation during manual onboarding.
+
+## v4.2.0
+
 ### Feature
 
 - Edit or update your username directly from your profile.
