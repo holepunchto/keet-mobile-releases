@@ -1,5 +1,40 @@
 # Changelog
 
+## v4.3.0
+
+### Feature
+
+- Support leaving DM rooms.
+
+### Improvement
+
+- Shortened sync time via background content fetch.
+- Simplified anchor logic and unified keyboard component. 
+- Emoji sizing now respects device fontScale. 
+- Hide link preview when it has been reported. 
+- Improved anchor handling (active keyboard, batch scroll).
+- Improved large file upload handling; addressed speed and download issues. 
+- Swiping back now clears the search bar/results instead of minimizing the app. 
+- Removed the 10 MB upload limit and improved progress/failure handling. 
+- Added layout animation to the room list. 
+
+### Fix
+
+- Fixed reply-to messages with link previews showing images instead of text. 
+- Fixed blank lobby keyboard / anchor rendering outside the view. 
+- Rendered list now retains its position after updates.
+- Anchor position now follows the active keyboard correctly.
+- Fixed timestamp location for received messages (UI and landscape video). 
+- Autoscroll anchor now works on new local messages.
+- Fixed last-character emoji rendering bug.
+- Corrected landscape video scaling.
+- Keyboard now stays open when navigating from the lobby. 
+- Fixed avatar reordering on scroll and avatar selection flow.
+- Fixed file processing bug. 
+- Joining a call now respects mic preference and permission flow. 
+- Fixed bottom-sheet join skipping mic preference. 
+- QR image join now appears above the scanner.
+
 ## v4.2.1
 
 ### Fix
