@@ -1,5 +1,15 @@
 # Changelog
 
+## v4.3.1
+
+### Fix:
+
+- Fixed rooms sometimes getting stuck in a restoring state on Android.
+- Fixed the message list briefly scrolling the wrong way after you send a message.
+- Prevented error loops: if logging an error fails, it no longer throws or crashes the app.
+- Made push notifications more reliable on Android by coordinating the push handler with a lockfile.
+- Fixed crash when opening some rooms by updating a core dependency.
+
 ## v4.3.0
 
 ### Feature
