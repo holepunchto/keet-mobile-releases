@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.3.2
+
+### Fix
+
+- Fixed rooms failing to load caused by a message deletion edge case.
+
 ## v4.3.1
 
 ### Fix:
