@@ -1,5 +1,44 @@
 # Changelog
 
+## v4.4.0
+
+### Improvements
+- Enhanced chat performance and reliability
+- Improved lobby scrolling and rendering performance
+- Better emoji picker and reactions experience
+- Updated message metadata with improved text truncation and “show more” button
+- Refined rate limiting in chat with clearer feedback
+- Improved DM membership sync and rejoin behavior
+- Extended file preview support (images, videos, TIFF, animated images)
+- Link previews can now be tapped to open directly
+- Enhanced error handling and background refresh statistics
+- Optimized Android launch mode for smoother app switching
+
+### Fixes
+- Fixed inline code breaking chat and lobby layouts
+- Fixed long messages being truncated or missing “see more”
+- Fixed chat inputs freezing or requiring double-tap after media preview
+- Fixed scroll-to-bottom and message jump issues in chat
+- Fixed mention handling and long-press gesture conflicts
+- Fixed emoji sheet sometimes empty or causing freeze
+- Fixed issues with message links not opening correctly
+- Fixed reactions, reply icons, and member tags alignment in chat
+- Fixed Pear link avatar preview issues
+- Fixed missing usernames in lobby messages
+- Fixed sending saved images and files with spaces in names
+- Fixed media viewer issues with offline peers and preview rendering
+- Fixed pasting/sending images and files from different sources
+- Fixed Safari media sharing issues
+- Fixed keyboard focus and input placement problems across chat and lobby
+- Fixed lobby showing rooms without proper titles
+- Fixed DM requests not appearing until room creation
+- Fixed read-only room messaging and missing leave option
+- Fixed avatar and anchor rendering bugs in lobby keyboard view
+- Fixed notification grouping, wakeup, and push handling issues on Android
+- Fixed app offset and safe area padding issues on Android/iOS
+- Fixed bugs with background tasks and timers handling
+- Fixed muted member controls and join/leave event visibility in chat
+
 ## v4.3.2
 
 ### Fix
