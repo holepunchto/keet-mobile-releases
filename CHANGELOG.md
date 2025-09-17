@@ -2,42 +2,84 @@
 
 ## v4.4.0
 
-### Improvements
+### Feature
+- Room administrators and moderators can now manage join and leave events in the chant.
+
+### Improvement
 - Enhanced chat performance and reliability
 - Improved lobby scrolling and rendering performance
-- Better emoji picker and reactions experience
-- Updated message metadata with improved text truncation and “show more” button
-- Refined rate limiting in chat with clearer feedback
-- Improved DM membership sync and rejoin behavior
-- Extended file preview support (images, videos, TIFF, animated images)
-- Link previews can now be tapped to open directly
-- Enhanced error handling and background refresh statistics
-- Optimized Android launch mode for smoother app switching
+- Improved lobby list and removed placeholder.
+- Support for excluding file ID in replies with link previews.
+- Added a "Show All Text" button for long messages.
+- Set Android launch mode to single instance for smoother handling.
+- Pressing a link preview now takes you directly to the URL.
+- Extended image preview support.
+- Synced DM room activities texts with desktop.
+- Improve DM unread counts user experience.
+- Swiping back clears search instead of minimizing the app.
+- Improved layout consistency by switching to a container component.
+- Enhanced emoji picker.
+- Added toast notification when a file is cleared.
+- Ability to mute members directly from chat.
+- Clearer message when ID recovery fails.
+- Show bare-media version in the software info screen.
+- Simplified chat anchor logic.
+- Added layout animation to the room list for a smoother experience.
+- Link previews are hidden when reported.
+- Removed 10 files upload limit.
+- Medium preview avatar now shown in room options.
+- Unified chat parser with desktop.
+- Refactored keyboard views into a single component.
 
-### Fixes
-- Fixed inline code breaking chat and lobby layouts
-- Fixed long messages being truncated or missing “see more”
-- Fixed chat inputs freezing or requiring double-tap after media preview
-- Fixed scroll-to-bottom and message jump issues in chat
-- Fixed mention handling and long-press gesture conflicts
-- Fixed emoji sheet sometimes empty or causing freeze
-- Fixed issues with message links not opening correctly
-- Fixed reactions, reply icons, and member tags alignment in chat
-- Fixed Pear link avatar preview issues
-- Fixed missing usernames in lobby messages
-- Fixed sending saved images and files with spaces in names
-- Fixed media viewer issues with offline peers and preview rendering
-- Fixed pasting/sending images and files from different sources
-- Fixed Safari media sharing issues
-- Fixed keyboard focus and input placement problems across chat and lobby
-- Fixed lobby showing rooms without proper titles
-- Fixed DM requests not appearing until room creation
-- Fixed read-only room messaging and missing leave option
-- Fixed avatar and anchor rendering bugs in lobby keyboard view
-- Fixed notification grouping, wakeup, and push handling issues on Android
-- Fixed app offset and safe area padding issues on Android/iOS
-- Fixed bugs with background tasks and timers handling
-- Fixed muted member controls and join/leave event visibility in chat
+### Fix
+- Long inline code no longer breaks the chat UI.
+- Adjusted line color for better visibility.
+- URLs in messages open correctly.
+- Disabled screenshots and replays for privacy.
+- Improved handling of wakeup timers.
+- Long press on a mention no longer breaks functionality.
+- Fixed input freeze after media preview requiring a double tap.
+- Emoji sheet no longer causes freeze in empty rooms.
+- Can scroll correctly in a new chat.
+- Long inline code no longer breaks the lobby view.
+- Fixed double anchor and scroll issues in chat.
+- Media sharing from Safari now works.
+- Mentions picker works correctly when input is focused.
+- Sending animated images is now supported.
+- Video previews display correctly.
+- Rooms without a title now show properly.
+- Fixed keyboard focus state issues.
+- Can now send saved images from the Media Viewer.
+- Files with spaces in names are handled correctly.
+- Long messages from desktop now display "see more" instead of being cut off.
+- Improved autoscroll performance in lobby.
+- Fixed avatar preview issues with Pear links.
+- TIFF image handling works correctly.
+- Usernames are displayed correctly in the lobby.
+- Inline code styling fixed on mobile.
+- Added extra animation when switching between keyboard and emoji keyboard.
+- Emojis cut correctly across multiple lines.
+- Pasting an image in chat works.
+- Links in messages now work for all users.
+- Android notification grouping fixed.
+- Join/leave events are hidden by default.
+- Reply icon is correctly aligned when swiping to reply to your own message.
+- Push notification paths are normalized.
+- Fixed jump issues when navigating to new messages.
+- Bottom sheet padding updates correctly instead of shifting.
+- First DM request now arrives correctly.
+- Chat input no longer gets stuck and scrolls to bottom with long messages.
+- Fixed short message previews.
+- Rendered list holds its position correctly.
+- Fixed file processing issues.
+- Lobby keyboard now works and renders anchor correctly.
+- Large file uploads now work reliably.
+- Anchor position follows keyboard correctly.
+- Timestamps for received messages display correctly.
+- Keyboard closes when leaving the lobby.
+- Joining a call via QR image now appears in front of the scanner.
+- Editing messages with link previews works.
+- Autoscroll anchor works correctly for new local messages.
 
 ## v4.3.2
 
