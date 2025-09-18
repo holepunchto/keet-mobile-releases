@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.4.2
+
+### Fix
+
+- Fixed scanning a DM QR not working.
+- Fixed push notifications and DM call ringing not working when the app was in the background for less than 30 seconds.
+- Fixed a duplicated ‘Show all’ button appearing on long messages.
+
 ## v4.4.0
 
 ### Feature
