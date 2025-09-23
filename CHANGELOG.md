@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.4.3
+
+### Fix
+
+- Swipe through image cause app hang/crash
+- Room options cause android app crash
+- DM request opens blank room with roomType error
+
 ## v4.4.2
 
 ### Fix
