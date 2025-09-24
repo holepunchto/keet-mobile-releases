@@ -9,7 +9,7 @@
 
 ### Fix
 
-- Temperarly hide media & file section
+- Temporarily hidden the hide media & file section in the Room
 
 ## v4.4.3
 
