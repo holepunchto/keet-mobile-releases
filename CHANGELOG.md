@@ -1,5 +1,16 @@
 # Changelog
 
+## v4.4.4
+
+### improvement
+
+- Replaced FAQ link with the new Keet Support page.
+- Updated blur effect for reported message
+
+### Fix
+
+- Temperarly hide media & file section
+
 ## v4.4.3
 
 ### Fix
