@@ -1,5 +1,38 @@
 # Changelog
 
+## v4.5.0
+
+### Feature
+
+- Remove linked devices from your profile.
+- Push notifications now include the rooms' avatar for easier recognition.
+- Moderation upgrades for better room management.
+- Room admins and moderators can now delete files directly from the room options.
+
+### Improvement
+
+- Updated username validation message to specify Latin letters.
+- Large file collections now load in pages for smoother scrolling.
+- Swipe gestures and loading placeholders improve the room list experience.
+- Unified push notification texts and emojis for consistency.
+- Improved emoji handling, input stability, and blur intensity control.
+- Refreshed call button design.
+- Faster media previews.
+- Unified handling of camera, microphone, and photo permissions.
+- Removed internal usage of Markdown.
+
+### Fix
+
+- Muted users can no longer start calls or create QR codes.
+- Elimination of brief black flashes in media previews.
+- Fixed unexpected DM call pop ups when notifications are off.
+- Resolved file deletion edge cases and ensured proper cleanup of file types.
+- Fixed emoji copying and markdown rendering issues.
+- Resolved overlapping tooltips, layout glitches, and scroll issues in chat.
+- Various minor crash and edge case fixes, including QR errors and link previews.
+- Fixed crash on language selection screens.
+- Updated build scripts for Xcode 26 compatibility.
+  
 ## v4.4.4
 
 ### improvement
@@ -116,7 +149,7 @@
 
 ## v4.3.1
 
-### Fix:
+### Fix
 
 - Fixed rooms sometimes getting stuck in a restoring state on Android.
 - Fixed the message list briefly scrolling the wrong way after you send a message.
