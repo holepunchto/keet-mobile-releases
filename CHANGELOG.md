@@ -1,5 +1,16 @@
 # Changelog
 
+## v4.5.1
+
+### Fix
+
+- Fixed unreads not displaying correctly after upgrade.
+- Messages with link previews now send reliably without triggering errors or stuck rooms.
+- Fixed call disconnection error on iOS.
+- Fixed crash when inactivity notification is sent while the app is in the background on iOS.
+- Fixed QR scan error messages.
+- Fixed DM auto leave behavior.
+
 ## v4.5.0
 
 ### Feature
@@ -32,7 +43,8 @@
 - Various minor crash and edge case fixes, including QR errors and link previews.
 - Fixed crash on language selection screens.
 - Updated build scripts for Xcode 26 compatibility.
-  
+
+
 ## v4.4.4
 
 ### improvement
@@ -141,6 +153,7 @@
 - Editing messages with link previews works.
 - Autoscroll anchor works correctly for new local messages.
 
+
 ## v4.3.2
 
 ### Fix
@@ -191,6 +204,7 @@
 - Joining a call now respects mic preference and permission flow. 
 - Fixed bottom-sheet join skipping mic preference. 
 - QR image join now appears above the scanner.
+
 
 ## v4.2.1
 
@@ -248,6 +262,7 @@
 - Fixed notification sound handling.
 - Fixed crashes in the media picker, camera, and file picker.
 - Fixed voice note playback speed button.
+
 
 ## v4.1.1
 
@@ -345,6 +360,7 @@
 - Continue button stays disabled if device name is empty.
 - Fixed profile name colour in chat.
 
+
 ## v4.0.5
 
 ### Fix
@@ -440,6 +456,7 @@
 - Fixed Discover Communities being cut off on small devices.
 - Disabled bottom tab presses when no identity is set.
 - Corrected tooltip orientation on tablets.
+
 
 ## v3.25.5
 
@@ -539,6 +556,7 @@
 - Enabled autocorrect in chat input
 - Fixed alignment issues for older messages
 
+
 ## v3.24.2
 
 ### Fix
@@ -607,6 +625,7 @@
 - Fixed device link error
 - Fixed layout animation crash
 - Fixed invite QR code
+
 
 ## v3.23.2
 
@@ -694,6 +713,7 @@
 - Fix Edit Profile Bottom sheet stuck
 - Fix statusbar warnings on ios
 
+
 ## v3.22.1
 
 - Fixed crash on Startup.
@@ -754,6 +774,7 @@
 - Loading SVG text overflows container
 - Fix image placeholder layout to prevent content overflow
 - Voice notes on mobile played at different speed
+
 
 ## v3.21.1
 
@@ -816,6 +837,7 @@
 - Avoid use of thumb to seek audio voice note
 - Drop android devices support for armeabi-v7a architecture
 
+
 ## v3.19.1
 
 ### Fixes
@@ -862,6 +884,7 @@
 - Show ‘someone’ when username not found for notification
 - Navigate to room options after downgrade self to peer
 - Centered lobby action button text
+
 
 ## v3.18.1
 
@@ -914,6 +937,7 @@
 - Wait for keyboard to dismiss before open tooltip in room
 - Fix can’t long press copy a url
 
+
 ## v3.17.0
 
 ### Features
@@ -960,6 +984,7 @@
 - Refactor UserProfileScreen
 - Fix exiting full screen when video ends crashes app
 - Scale font properly across all member avatars (已編輯)
+
 
 ## v3.16.1
 
@@ -1010,6 +1035,7 @@
 - Fix show file icon of attached doc
 - Fix dmg file treated as image
 - Removed maxHeight restriction to the file
+
 
 ## v3.15.2
 
@@ -1073,6 +1099,7 @@
 - extra emojis added to mentions
 - Prev message (emoji corrupt) gets removed from chat
 
+
 ## v3.14.1
 
 ### Improvements
@@ -1106,6 +1133,7 @@
 - Fix filtering out current room activity toasts
 - Fix message preview text size varies for chat events
 
+
 ## v3.13.1
 
 ### Improvements:
@@ -1131,6 +1159,7 @@
 - Fix profile pics not saved
 - Fix call speaker selector flickering
 - Fix error when changing avatar
+
 
 ## v3.12.1
 - Fix room scroll
