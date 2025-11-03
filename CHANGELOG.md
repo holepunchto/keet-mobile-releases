@@ -1,5 +1,64 @@
 # Changelog
 
+## v4.6.0
+
+### Feature
+
+- Unread message counts now stay in sync across all linked devices.
+- Search for messages directly within any chat room.
+- Easily navigate through conversations with visible day markers while scrolling.
+- Long-press the app icon to scan or share your Keet QR instantly.
+- Display your actual headset or audio device name in call settings.
+- Emoji suggestions when typing ':' in the chat input to get instant emoji recommendations.
+- New "About Us" section — Learn more about Keet and Holepunch directly from the app.
+
+### Improvement
+
+- Room QR codes now include the room's avatar for easy identification.
+- Join the community room matching your selected language when prompted to discover Keet communities.
+- Clearer actions and smoother transitions in DM rooms UX.
+- Cleaner and more consistent search bar visual style.
+- File upload progress improvements.
+- Shows packages per row for better readability.
+- Room info redesign.
+- Improved file preview generation.
+- More responsive and visually consistent emoji picker.
+- Improved unread message indicator
+- Cleaner room invitation messages
+- Refreshed app store details.
+
+### Fix
+
+- Fixes DM loading and display issues
+- Fixed audio device switching when enabling video in calls.
+- Fixed jumping reaction bar when reacting to messages.
+- Fixed reported message display and related linting issues.
+- Fixed QR code scanning on iOS when linking devices.
+- Fixed disabled button rendering issues.
+- Fixed admin badge alignment when renaming rooms.
+- Fixed device link QR detection.
+- Fixed deleted device display handling.
+- Fixed image picker behavior and thumbnail cache.
+- Fixed reaction bar jumps and keyboard persistence after opening room links.
+- Fixed emoji list being half hidden in the picker.
+- Fixed member visibility and type parsing issues.
+- Fixed avatar edit panel not sliding up properly.
+- Fixed .HEIC and .HEIF file handling on Android.
+- Fixed room title copy (copies title instead of key).
+- Fixed lobby search loading and repeated QR scan errors.
+- Fixed inactivity notification crash on iOS when in background.
+- Fixed startup crash on x86_64 devices.
+- Fixed file upload status and preview generation.
+- Fixed deleted message handling when removing files.
+- Fixed edit message file removal behavior.
+- Fixed byte size limits in link previews.
+- Fixed room info logic and layout issues.
+- Fixed scroll position for loaded messages.
+- Fixed scroll behavior during fast deceleration.
+- Fixed missing attached file dimensions.
+- Fixed broken app term links and minor cleanup.
+
+
 ## v4.5.1
 
 ### Fix
