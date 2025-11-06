@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.6.1
+
+### Fix
+
+- Mentions now display correctly in message previews after restarting the app.
+- Pinch to zoom now works properly during screenshare, both in normal and fullscreen modes.
+
 ## v4.6.0
 
 ### Feature
