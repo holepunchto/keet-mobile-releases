@@ -1,5 +1,53 @@
 # Changelog
 
+## v4.7.0
+
+### Features
+- Custom call ring sound – users can now select their own ringtone for incoming calls.
+- Custom notification sounds – add personalized sounds for in-app notifications.
+- Read receipts indicator – see when messages have been read.
+- Forward message flow – improved UI/UX for forwarding chats.
+- Add audio output selector – choose audio output device during calls.
+- Support AirPlay view for iOS in call.
+- Emoji size configuration for iOS – better visual consistency.
+- File details in event options sheet – show filename, size, and type for attached files when interacting with files.
+- Native notification play feature – improved handling of push notifications.
+- Align share room QRCode style as share profile style.
+- Chat date pill design – update sticky header styling.
+- Lobby & room UI alignment – tighter layout.
+- Profile picture on tab bar – added avatar to navigation tabs.
+- Display name and username wording – clearer onboarding text.
+- Normalize display names – consistent casing across the app.
+- Add feedback when exceeding max character limit – informs users when they type too much.
+- Updated React Native and relying frameworks.
+- Long messages now correctly truncate with a highlighted preview instead of breaking layout.
+- Implemented thumbnail generation for MP4 video attachments.
+- Unified the styling of multiple self-mentions within a single message.
+- Muted users no longer have their names displayed on pinned messages.
+- Added support for generating previews of links that point to x.com.
+- Optimized generation of large file previews to avoid out-of-memory crashes.
+
+### Fixes
+- Other apps music stops playback – fixed interference when opening rooms with audio files.
+- Username workflow & verbiage – improved error handling and messages.
+- Tooltip adaptation for large fonts – UI now scales correctly.
+- Custom emoji misplacement (Lobby) – corrected rendering.
+- Audio output switch on call events – prevented unwanted speaker activation.
+- Various platform-specific bugs (HEIC orientation, video permissions, markdown replacement, etc.).
+- Prevented the app from unintentionally pausing other background music when entering a room containing audio files.
+- Adjusted layout logic so pinned messages no longer get cut off at the bottom of the screen.
+- Added proper error handling and user feedback when file selection fails due to missing permissions.
+- Resolved playback failure of voice notes after the app’s cache is cleared.
+- Resolved rapid keyboard show/hide flicker during message input.
+- Fixed RTL layout where extra padding was incorrectly added.
+- Adjusted UI so the paste button no longer covers secret words during account recovery.
+- [Android] Fixed a bug where Android attempted to download files incorrectly after clear cache.
+- [Android] Solved some videos showing in portrait.
+- [Android] Fixed broken mentions handling on GrapheneOS.
+- [Android] Corrected image rotation for HEIC files on Android devices.
+- [iOS] Notification avatar background – removed unwanted white background.
+- [iOS] TextMessageDisplay clipping – prevented pinned message clipping.
+
 ## v4.6.1
 
 ### Fix
