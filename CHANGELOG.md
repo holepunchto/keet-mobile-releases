@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.7.1
+
+### Fix
+- Read receipts toggle doesn't throw an error
+- Handle random background crashes
+
 ## v4.7.0
 
 ### Feature
