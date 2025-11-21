@@ -1,5 +1,10 @@
 # Changelog
 
+## v4.7.2
+
+### Fix
+- Fix push notification and Calls not functional on Android
+
 ## v4.7.1
 
 ### Fix
