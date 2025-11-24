@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.7.3
+
+### Feature
+- Read receipt in DM
+
+### Fix
+- Link preview description
+
 ## v4.7.2
 
 ### Fix
