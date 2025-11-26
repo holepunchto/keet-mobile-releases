@@ -1,12 +1,17 @@
 # Changelog
 
+## v4.7.4
+
+### Fix
+- Fix to repair room
+
 ## v4.7.3
 
 ### Feature
 - Read receipt in DM
 
 ### Fix
-- Link preview description
+- Fix Link preview description
 
 ## v4.7.2
 
