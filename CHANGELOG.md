@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.7.5
+
+### Fix
+
+- Fix bug when editing message
+
 ## v4.7.4
 
 ### Fix
