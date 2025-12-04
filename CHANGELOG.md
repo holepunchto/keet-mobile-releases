@@ -4,13 +4,13 @@
 
 ### Feature
 
-- Sent indicators now available in the lobby. 
+- Sent indicators now diplay in the lobby. 
 - Search and forward messages with extended results.
 - Capture a photo and set it as an avatar for group chats.
 - Display names now support emojis.
-- New group guidelines for Keet's community group chats.
+- New guidelines for Keet's community group chats.
+- Group chat invites are now branded and include group chat's avatar in the QR
 - Calls now ring inside the app for a smoother experience.
-- No more mandatory updates when new versions are released. 
 
 ### Improvement
 
@@ -18,9 +18,9 @@
 - Refined Android call screen for DMs.
 - Simplified onboarding flow.
 - Updated tooltips design.
-- Redesigned edit message UI.
+- Improved message editing design.
 - Input box now clears automatically when replying.
-- Improved calls handling for blocked users.
+- Improved calls behaviour with blocked users.
 - Screen stays awake during audio playback.
 - Larger preview for medium files.
 - Character limit hints for group chats' descriptions.
