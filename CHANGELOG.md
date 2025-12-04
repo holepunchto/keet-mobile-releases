@@ -4,7 +4,7 @@
 
 ### Feature
 
-- Sent indicators now diplay in the lobby. 
+- Sent indicators now display in the lobby. 
 - Search and forward messages with extended results.
 - Capture a photo and set it as an avatar for group chats.
 - Display names now support emojis.
