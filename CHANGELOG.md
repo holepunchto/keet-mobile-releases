@@ -1,5 +1,51 @@
 # Changelog
 
+## v4.8.0
+
+### Feature
+
+- Sent indicators now available in the lobby. 
+- Search and forward messages with extended results.
+- Capture a photo and set it as an avatar for group chats.
+- Display names now support emojis.
+- New group guidelines for Keet's community group chats.
+- Calls now ring inside the app for a smoother experience.
+- No more mandatory updates when new versions are released. 
+
+### Improvement
+
+- Renamed 'Room' to 'Group' chat across the app for consistency.
+- Refined Android call screen for DMs.
+- Simplified onboarding flow.
+- Updated tooltips design.
+- Redesigned edit message UI.
+- Input box now clears automatically when replying.
+- Improved calls handling for blocked users.
+- Screen stays awake during audio playback.
+- Larger preview for medium files.
+- Character limit hints for group chats' descriptions.
+- Square avatars in broadcast feeds' notifications.
+- Prevent emojis past character limit.
+- Improved Android compatibility with 16 KB page sizes.
+
+### Fixe
+
+- Fixed crash when sending messages with extremely long URLs.
+- Fixed iOS scrolling gestures causing layout issues.
+- Fixed cursor placement glitches on iOS.
+- Fixed Android audio pitch inconsistency when playing at different speeds.
+- Fixed messages appearing blank in certain cases.
+- Fixed missing link preview descriptions.
+- Fixed reply highlight animation glitches.
+- Fixed escaped characters in sender names.
+- Fixed member name flickering.
+- Fixed invisible buttons on dark avatars' edit screen.
+- Fixed truncated Admin/Moderator labels for long names.
+- Fixed removed usernames not showing correctly in lobby preview.
+- Fixed chat input focus visuals.
+- Fixed layout spacing in New Group Chat bottom sheet.
+
+
 ## v4.7.5
 
 ### Fix
