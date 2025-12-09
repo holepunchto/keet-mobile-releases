@@ -1,5 +1,17 @@
 # Changelog
 
+## v4.8.1
+
+### Improvement
+
+- Added BMP image preview support on iOS.
+- Enhanced full screen back gesture on iOS.
+
+### Fix
+
+- Fixed lag when swiping between components in the lobby.
+- Fixed call hang-up issue.
+
 ## v4.8.0
 
 ### Feature
