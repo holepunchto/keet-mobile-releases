@@ -1,5 +1,50 @@
 # Changelog
 
+## v4.9.0
+
+### Feature
+
+- Your text and your image are now in a single post.
+- Send multiple images or videos and they'll stay in one tidy group.
+- Grouped messages now show a compact preview in the lobby with quick - reply actions.
+- Delete, forward, or share an entire group of messages at once.
+
+### Improvement
+
+- Customizable confirm dialog button styles and updated DM request screen theming.
+- Design updates for reply to message UI, edit message button, and delete button layout.
+- Improved chat room stability and performance.
+- Long press menu is now available for links.
+- Unified invitation QR UI.
+- Updated incompatible rooms banner and improved tip icon alignment.
+- Improved swipeable lobby item behavior on newer Android and iOS versions.
+- Ring UI adjustments for tablets and large screens.
+- Ringtone can now be muted using the device volume buttons.
+- Improved call handling after hang-up and resume.
+- Added support for selecting offloaded iCloud photos on iOS.
+- Improved audio pitch handling at different playback speeds.
+- Updated small room title layout and font sizing.
+- Updated QR code logo design.
+- Emoji support added for display names.
+- Additional validation rules for names.
+- Improved offline network state handling.
+- Updated DM request wording.
+
+### Fix
+
+- Fixed image zoom and scroll handling.
+- Fixed link orientation issues.
+- Fixed filename display layout.
+- Fixed anchor rendering issues.
+- Improved offline state handling.
+- Fixed tip icon alignment.
+- Fixed image flickering issues.
+- Fixed lobby swipe bugs.
+- Fixed DM call ringing issues.
+- Fixed mute behavior during calls.
+- Fixed thumbnail timing for corrupted videos.
+- Applied compression before thumbnail generation.
+
 ## v4.8.1
 
 ### Improvement
