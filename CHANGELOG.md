@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.9.1
+
+### Fix
+
+- Recovery phrase warning resolved
+- Image preview fullscreen issue fixed
+
 ## v4.9.0
 
 ### Feature
