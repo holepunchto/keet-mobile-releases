@@ -1,5 +1,15 @@
 # Changelog
 
+## v4.9.3
+
+### Fix
+
+- Fixed a startup issue that could cause the app to hang.
+
+## v4.9.2
+
+- Internal system upgrade.
+
 ## v4.9.1
 
 ### Fix
@@ -51,6 +61,7 @@
 - Fixed mute behavior during calls.
 - Fixed thumbnail timing for corrupted videos.
 - Applied compression before thumbnail generation.
+
 
 ## v4.8.1
 
