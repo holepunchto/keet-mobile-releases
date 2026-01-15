@@ -1,5 +1,43 @@
 # Changelog
 
+## v4.10.0
+
+### Feature
+
+- Added a new screen with detailed network connection information and controls.
+
+### Improvement
+
+- Sending 2–3 photos or videos now groups them neatly into a single message bubble.
+- Room options improvements.
+- Native swipe gestures for the lobby and chat screens for a more fluid experience.
+- Smoother scrolling in the lobby and group chats.
+- Discover suggested communities directly from the main Lobby.
+- Updated in-app banners.
+- Redesigned offline indicator for better visibility.
+- Refreshed group header bar layout.
+- Refreshed incompatible group chat banner.
+- Improved layout for long text messages mixed with other content.
+- The app now reloads automatically when your device timezone changes.
+- Declined calls are now correctly recorded as 'Missed Call' events.
+- Improved handling of notifications for messages containing only a URL.
+- Adjusted scrolling momentum for a more natural feel.
+- Easier to find and review pending direct message requests.
+
+### Fix
+
+- Fixed issues when searching for emojis by typing.
+- Emoji keyboard height now matches the typing keyboard correctly.
+- Fixed draft text being lost when switching to reply mode.
+- Fixed username input border not highlighting when selected.
+- Link previews now generate correctly when links are pasted.
+- Fixed an issue where certain oddly proportioned images couldn't open fullscreen.
+- Improved reliability of image preview generation.
+- Fixed incorrect loading indicators for small file transfers.
+- Fixed a touch interaction issue that could trigger warnings.
+- Fixed 'Save' button jumping while editing group details.
+- Fixed double loading animation when joining a room via shared link.
+
 ## v4.9.3
 
 ### Fix
