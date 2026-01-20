@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.10.1
+
+### Improvement
+
+- New notification sound added
+- Updated spainish translations
+
 ## v4.10.0
 
 ### Feature
