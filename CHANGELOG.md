@@ -1,5 +1,12 @@
 # Changelog
 
+
+## v4.10.2
+
+### Feature
+
+- Group moderator can check user report members & messages
+
 ## v4.10.1
 
 ### Improvement
