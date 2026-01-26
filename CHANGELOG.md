@@ -1,6 +1,12 @@
 # Changelog
 
 
+## v4.10.3
+
+### Fix
+
+- Fixed issue with emoji
+
 ## v4.10.2
 
 ### Feature
