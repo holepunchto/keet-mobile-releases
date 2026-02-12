@@ -1,6 +1,40 @@
 # Changelog
 
 
+## 4.11.0
+
+### Feature
+- User Reporting: Added functionality to report users in group.
+- Moderation Dashboard: Group admins can now view and manage reported members and content via a new dashboard.
+- Remove Members: Group admins can now remove members directly.
+- Network Status: Added a visual indicator to alert users when the network connection is degraded.
+- Media Cache: Added a display for the size of the media cache in settings.
+- Pinned Messages: Added support for media attachments in the Pinned Message header.
+- Gestures: Added a toggle to enable/disable swipe gestures for Lobby and Chat navigation.
+- Lobby: Added a long-press menu sheet for items in the Lobby.
+
+### Improvement
+- Media Preview: Enhanced preview functionality with better gesture support and safe area handling.
+- Grouped Media: Grouped media files are now viewed vertically for a better browsing experience.
+- Link Previews: Updated the UI to match new design standards, limiting to one item and combining previews with media bubbles.
+- Call Screen: Added a "Back to Chat" icon on the mobile call screen for easier navigation.
+- Notifications: Added a new "Nuclear" notification sound option and hid notifications when Privacy Mode is enabled.
+- Room Suggestions: Improved the logic for public room suggestions.
+- DM Requests: timestamps are now visible on Direct Message requests.
+- Validation: Adjusted user name validation logic.
+- Down sizing the android apk from 483 MB to 237 MB
+- Update Localization
+
+### Fix
+- Chat: Fixed issues with long-pressing images, text cut-off in code blocks, keyboard overloading the input field when switch from emoji, and reply message container width.
+- Mentions: Fixed a bug where profile names with newlines broke the mentions UI.
+- Pinned Messages: Fixed the "Unread" tick status for pinned messages and resolved tooltip visibility issues.
+- Lobby: Fixed message text cut-off, icon alignment, and an issue where the lobby was visible when clicking a user from search results.
+- Room: Fixed crashes related to file usage in reported activity and resolved flickering when viewing the "All Members" list.
+- Emoji: Fixed support for the latest Unicode emojis and emoji search by name.
+- Timezone: Fixed timezone detection when time doesn't offsets.
+- Android: Fixed group call notifications on Android devices.
+
 ## v4.10.3
 
 ### Fix
