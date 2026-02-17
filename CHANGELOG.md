@@ -1,5 +1,17 @@
 # Changelog
 
+## 4.11.1
+
+### Improvements
+- Emoji search now shows full results.
+- Improved performance on low-end devices to reduce ANRs.
+
+### Fixes
+- Fixed crash on GrapheneOS/Android when quickly opening output settings during a call.
+- Fixed issue where speaker could revert to earpiece when another participant joined a call.
+- Fixed call ring issue when app is in foreground.
+- Fixed error when viewing reported activities.
+- Fixed keyboard overlapping the room creation screen on some MIUI devices.
 
 ## 4.11.0
 
