@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.11.2
+
+### Fixes
+- Fixed invite links
+- Internal updates
+
 ## 4.11.1
 
 ### Improvements
