@@ -1,5 +1,34 @@
 # Changelog
 
+## 4.12.3
+
+### Fixes
+
+- Fixed an issue that could cause the app to get stuck on launch.
+
+## 4.12.2
+
+### Fixes
+
+- Fixed a startup issue that could prevent the app from opening properly.
+
+## 4.12.1
+
+### Features
+
+- Added a ‘End call for all’ option for group calls only.
+
+### Improvements
+
+- Improved call stability and consistency in UI and state by using the new call engine.
+
+### Fixes
+
+- Fixed multiple media forwarding issues.
+- Fixed Join Call button presence not showing correctly.
+- Tuned font scaling for better readability across devices.
+
+
 ## 4.11.2
 
 ### Fixes
