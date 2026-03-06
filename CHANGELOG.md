@@ -28,6 +28,57 @@
 - Fixed Join Call button presence not showing correctly.
 - Tuned font scaling for better readability across devices.
 
+## 4.12.0
+
+### Features
+
+- Location sharing with maps integration.
+- Forward messages with forwarded label.
+- Organize room list with favourites filter.
+
+### Improvements
+
+- Enhanced emoji search with empty result placeholder and no limit.
+- Gesture support and chronological ordering for media preview.
+- Display timestamp for DM requests.
+- Member report counter.
+- Updated public room suggestions.
+- Improved timezone detection.
+- Keep draft messages when editing.
+- Updated link preview UI.
+- UI alignment updates to match the latest designs.
+- Call audio improvements.
+- Mobile call screen now includes a "Back to chat" button.
+- Member search UI improvements.
+- File upload improvements.
+- Network degradation indicator improvements.
+- Reaction performance improvements.
+- Removed broadcast from mobile.
+
+### Fixes
+
+- DM requests now show correctly in search results.
+- Fixed Removed member message grouping.
+- Fixed media preview ordering issues.
+- Fixed code block + emoji layout issues.
+- Prevent showing admin/mod names for removed users.
+- Fixed broadcast room thumbnail (square thumbnail in top bar).
+- Fixed emoji picker tab bar position shifting.
+- Fixed keyboard overlapping the input when switching from emoji picker.
+- Fixed warning in pinned message header selector.
+- Fixed chat input disabled state for admins.
+- Fixed error handling when removed members try to join via invite.
+- Fixed long-press error on images.
+- Fixed lobby showing behind user profile when opened from search.
+- Fixed emoji search by name.
+- Fixed reply message container width.
+- Fixed support for latest Unicode emojis.
+- Fixed Android group call notification duplicates/handling.
+- Fixed null audio output edge cases in calls.
+- Editing a message no longer deletes pending uploads.
+- Fixed waveform cache import issue.
+- Fixed keyboard shortcuts on Android.
+- Fixed reported activity crash related to file usage.
 
 ## 4.11.2
 
