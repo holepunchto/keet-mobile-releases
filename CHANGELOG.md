@@ -5,6 +5,7 @@
 ### Fixes
 
 - Fixed an issue that could cause the app to get stuck on launch.
+- Fixed an issue where some DM chats didn't sync correctly.
 
 ## 4.12.2
 
@@ -30,11 +31,12 @@
 
 ## 4.12.0
 
-### Features
+### (Added support for upcoming) features
 
 - Location sharing with maps integration.
 - Forward messages with forwarded label.
 - Organize room list with favourites filter.
+- Improved call state handling with the new call engine.
 
 ### Improvements
 
