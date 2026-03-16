@@ -1,5 +1,20 @@
 # Changelog
 
+## 4.12.4
+
+### Improvements
+
+- Improved startup diagnostics to better surface boot errors.
+
+### Fixes
+
+- Fixed an issue where some room messages did not trigger push notifications.
+- Fixed a case where rooms could enter a corrupted state and fail to load correctly.
+- Fixed a crash when long pressing certain emoji reactions.
+- Fixed an issue where timezone changes were not reflected in the app.
+- Fixed an issue where a second incoming call would not ring on iOS.
+- Fixed several iOS crashes affecting foreground and background app states.
+
 ## 4.12.3
 
 ### Fixes
