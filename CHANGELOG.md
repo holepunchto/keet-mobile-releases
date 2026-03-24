@@ -1,5 +1,23 @@
 # Changelog
 
+## 4.12.5
+
+### Improvements
+
+- Improved performance and stability in large group calls.
+- Expanded support for punctuation in room and profile names.
+
+### Fixes
+
+- Fixed incorrect notification shown after ending a call.
+- Fixed issues switching audio output during video calls on iOS.
+- Fixed crash when declining incoming calls.
+- Fixed crash when a call ends just before being answered on iOS.
+- Fixed crash when closing the app during an active call.
+- Fixed camera issues on some Android MIUI devices during large calls.
+- Fixed ringtone playing briefly after a call is answered.
+- Fixed incorrect handling of punctuation characters in names.
+
 ## 4.12.4
 
 ### Improvements
