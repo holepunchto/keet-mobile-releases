@@ -1,5 +1,15 @@
 # Changelog
 
+## 4.12.7
+
+### Features
+
+Group chats are now upgraded to enable:
+- Upgraded call experience
+- Favourite chats and filter them in your chat list
+- Forwarded messages with labels
+- Share your location
+
 ## 4.12.5
 
 ### Improvements
