@@ -1,10 +1,10 @@
 # Keet Mobile App
 
-[![Bug Bandits](https://img.shields.io/badge/Bug%20Bandits-🐞-D1E231)](https://gasolin.idv.tw/keetlink/#key=yryskey4bdbxfkaijjankt1e7wecr4w3bztqhheoqkfcyxcs6qjm6gwxecqng6t778stk8zbdic59a3noutugyn8u4gjbi18wgpeub3f5r&title=Bug%20Bandits%F0%9F%90%9E)
+[![Bug Bandits](https://img.shields.io/badge/Bug%20Bandits-🐞-D1E231)](https://holepunchto.github.io/invite/#yfoios17dgbdhoyizg1er4zdsay9admk4oo3meh4j1tawqx4fw5scmysf93per7subcttbhrjuoiriey7b65sh5yrdmhpape7j7f4d7s51kfur9wwwrkwb8ms31n9ro1h467iqq4orw945do88oxztmpfoznnye)
 
 Release download link: https://github.com/holepunchto/keet-mobile-releases/releases
 
-Or you can download Keet Apk from Keet pear://keet/yfo6nemwt5oik3k3hnadrzbdz4txwdghpdt3zrhrd1wycynkn88keu43a4i64ux57xji85e3mej7s561a1qbm4cbtrgaea7jpko8may74bia3yhm4pihqum73ec16yun4togs13ry8tquahhx18x5fsks9r7aye
+Or you can download Keet Apk from [Keet APK](https://holepunchto.github.io/invite/#yfo6nemwt5oik3k3hnadrzbdz4txwdghpdt3zrhrd1wycynkn88keu6anj77ohjd8w3hfdmsbw8pe5mazk5by7tq89s6fz5ihyj47wzic9z55utdbp5ae7d6aj4qmsqph1zdza99gqjr945eamjsrxxfkmuzkye) group.
 
 
 You can download the latest official Keet Android `apk` here.
