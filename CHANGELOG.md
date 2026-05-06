@@ -1,5 +1,148 @@
 # Changelog
 
+## 4.14.0
+
+### Features
+
+- Audio message playback in the background.
+- Pinned messages in DM rooms.
+- Link sharing toggle in settings.
+- Resume / end call modal.
+- Click a member's name in the chat title to add a mention.
+- Verified icon on rooms.
+
+### Improvements
+
+- Improved chat input mention handling.
+- Low storage warning.
+- Chat loading screen now shows a slow-loading message.
+- Updated warning notification UI.
+- "Show all" content opens on a dedicated page.
+- Updated link previews to use extended preview data.
+- Subscribe to per-room notifications.
+- Long-press menu on lobby room search results.
+- Member tags now appear in reported messages and members lists.
+- Increased segment type limit to 50.
+- Hint shown when precise or network location is disabled.
+- Standardized emoji sizes and rendering across platforms.
+- Lobby search migrated to a faster list implementation.
+
+### Fixes
+
+- Fixed iOS crash when a call was hung up just before being answered.
+- Fixed iOS background CallKit crash from a dangling pointer.
+- Fixed Android crash from expo-blur on some devices.
+- Fixed Expo background-task lookup that prevented some background work from running.
+- Fixed leave-call behavior when the WebRTC call was still being set up.
+- Fixed call inactivity now shows the correct bottom sheet on the call screen.
+- Fixed "Tap to call back" button being shown to the initiator.
+- Fixed leftover keyboard when the other peer leaves a call.
+- Fixed call deeplinks and room invitation URL handling.
+- Fixed Android push not always opening the correct room.
+- Fixed notification deeplinks not opening the target room.
+- Fixed open-preview behavior so it only triggers for join-call pushes.
+- Fixed camera briefly showing a mirrored stream when toggling.
+- Fixed onCameraStateChange listener leak.
+- Fixed audio message background playback on Android.
+- Fixed replied audio message flickering on cache reload.
+- Fixed video preview orientation.
+- Fixed chat-box media preview showing double spinners.
+- Fixed unique asset file naming.
+- Fixed media preview generation in batch.
+- Fixed media forwarding completing when closing after download.
+- Fixed file forward malformed URI errors.
+- Fixed forwardable room ID list.
+- Fixed link preview reappearing after manual removal.
+- Fixed link preview being cleared when adding a file.
+- Fixed input link preview cut-off.
+- Fixed chat input link preview styling.
+- Fixed link preview UI inconsistencies.
+- Fixed swipeable buttons overflowing text.
+- Fixed swipe-to-reply re-mounting the keyboard.
+- Fixed clearing chat input leaving empty space and the keyboard open.
+- Fixed read-tick flickering in new rooms.
+- Fixed unread counter getting stuck after tapping scroll-to-bottom.
+- Fixed unread anchor circular background rendering.
+- Fixed text overlapping timestamps on single-line messages.
+- Fixed text layout in some chat messages.
+- Fixed RTL layout discrepancies.
+- Fixed favorite rooms filtering in search.
+- Fixed favorite sheet item ordering.
+- Fixed room favorite subscription.
+- Fixed dark-mode override for room avatars.
+- Fixed clear old files UI.
+- Fixed reliable list in-view callbacks.
+- Fixed Discover Communities and QR scanner availability when offline.
+- Fixed QR overflow on the Share Profile screen.
+- Fixed in-app notification queue behavior.
+- Fixed toast getting stuck open indefinitely.
+- Fixed dismiss keyboard when the DM nudge becomes visible.
+- Fixed keyboard closing after typing one letter in the room description.
+- Fixed wrong image being saved when swiping back in preview.
+- Fixed closing chat search leaving a blank space.
+- Fixed app-wide error boundary.
+- Fixed malformed decodeURI input.
+- Fixed flattened preview text.
+- Fixed allow punctuation characters in room and profile names.
+- Fixed room title payload.
+- Fixed update of preview thumbnails.
+
+## 4.13.1
+
+### Fixes
+
+- Fixed an issue with blind mirror.
+
+## 4.13.0
+
+### Features
+
+- Forward messages with label.
+- Location sharing.
+- Admins can now move the room indexer to another device.
+- Resume / end call modal.
+
+### Improvements
+
+- Search for mentions with spaces in the chat input.
+- Room repair options shown for all users.
+- Better call audio control.
+- Updated chat settings UI.
+- Updated Account / Settings UI.
+- Updated link preview UI.
+- Identity backup setup and quick-setup flows.
+- Room invite flow with loaders and disabled buttons.
+- iOS now toggles video off in the background to prevent frozen frames.
+- Refactored the bottom tab bar on the lobby screen.
+- Timezone handling now supports DST.
+- Improved startup diagnostics to better surface boot errors.
+
+### Fixes
+
+- Call fixes:
+  - Fixed call auto-ending when answered multiple times from the iOS lock screen.
+  - Disabled calls in old rooms.
+  - Fixed Android continuing to ring for group calls.
+  - Fixed video feed getting stuck when spamming the camera selfie button.
+  - Fixed speaker override when a headset is connected during video toggle.
+  - Fixed background suspend behavior when a call starts.
+  - Fixed crash when declining a call.
+  - Fixed active-calls subscription issues.
+  - Fixed Join Call button showing stale member avatars.
+  - Fixed room list call icon not appearing for active calls.
+  - Fixed iOS crash when a call is hung up just before being answered.
+- Fixed send button greyed out after uploading files.
+- Fixed manual clearing of link preview state.
+- Fixed deleting mentions in the chat input.
+- Fixed crash when long-pressing custom emoji reactions.
+- Fixed webm file type support on iOS.
+- Fixed forward preview functionality.
+- Fixed messages from blocked members appearing in replies.
+- Fixed blank screen on chat input attachment preview when swiping.
+- Fixed inability to reply to all event messages in chat.
+- Fixed room title payload.
+- Allow punctuation characters in room and profile names.
+
 ## 4.12.7
 
 ### Features
