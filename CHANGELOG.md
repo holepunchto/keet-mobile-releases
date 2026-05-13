@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.14.1
+
+### Fixes
+
+- Fixed a room sync issue where older linked devices could cause some users to lose access to them.
+
 ## 4.14.0
 
 ### Features
