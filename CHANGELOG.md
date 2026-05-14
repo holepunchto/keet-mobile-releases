@@ -1,5 +1,56 @@
 # Changelog
 
+## v4.15.0
+
+### Features
+- New media picker with inline camera capture and improved photo/file send flow
+- Paste images and files directly into the chat input
+- Mark rooms as unread
+- Verified icon for rooms
+- Partial wake-lock toggle to keep the app awake during long-running tasks
+
+### Improvements
+- Smoother input-extras animation and media picker gestures
+- Refreshed room options, members, and group options screens
+- Refreshed settings layout and reorganized background toggle placement
+- Show reconnection state during calls
+- Warn before leaving the app with pending uploads
+- Warn when an avatar image exceeds the maximum size
+- Faster lobby loading via preload
+
+### Fixes
+- Anchor counter no longer scales with the system font size
+- Fixed text overlapping the timestamp on single-line messages
+- Fixed in-app notification banner appearing after returning to foreground
+- Fixed deep-link handling for calls, room invites, and cold-start launches
+- Standardized emoji sizing and rendering across iOS and Android
+- Dismiss the keyboard when a DM nudge or fullscreen call ring appears
+- Fixed screenshare occasionally not appearing for the receiver
+- Faster lobby search rendering
+- Fixed reaction member list not loading on first open
+- Corrected back-arrow direction on the QR scan screen
+- Hide delivery indicator when status is unknown
+- Fixed lingering URL preview in the chat input
+- Fixed downloading files with percent-encoded characters in the name
+- Fixed race when answering an incoming call ring
+- Fixed mixed-direction text isolation in messages
+- Fixed lobby timestamps not updating live
+- Fixed iOS DM call not connecting when answered quickly from the lock screen
+- Fixed missing waveforms on voice notes
+- Adjusted spacing between the left icon and title in headers
+- Fixed message metadata spacing
+- Fixed Android background-task mount and related push reliability
+- Fixed chat jitter when switching to the emoji picker on Android
+- Save username button no longer hidden behind the keyboard
+- Fixed reply icon turning black on long press
+- Fixed call tiles not reflecting participant presence
+- Fixed chat input focus state
+- Fixed scrolling in the identity quick-setup screen
+- Fixed timing of the quick-tips modal
+- Hide background animation on iOS
+- Cleaned up link-preview rendering for media messages
+- Fixed private-profile version selector
+
 ## 4.14.1
 
 ### Fixes
