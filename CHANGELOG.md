@@ -1,5 +1,68 @@
 # Changelog
 
+## 4.16.0 Changelog
+
+### Features
+- New DM call UI and outgoing ring dial tone
+- Add option to strip attachments metadata
+- New paste images flow
+- Contact book
+- Recover profile via backup file
+
+### Improvements
+- Sync admin-manage-member screen UI
+- Warn before leaving with pending uploads
+- Name actual requirers in single-version validator output
+- Add animated ellipses to DM call status
+- Apply global hitslop for buttons
+- Chat search result
+- Batch sending UX/UI iteration
+- Apply standard 4:3 ratio to small DM tile
+- Drop video toggle debounce to 500ms
+- Sync admin manage member screen UI
+- Show full view self video ringing in DM
+- Sync native call timer with actual call connected timestamp for DM
+- Show member name when reconnecting
+
+### Fixes
+- Link preview cleanup for media messages
+- Forward message overflow
+- Skip failed link previews instead of aborting batch
+- Private profile version selector
+- Forwarding multiple images with same filename is broken
+- Input unmount blank space
+- Sync glide version
+- Embedding link issue
+- Show user friendly message for broken png
+- Populate ios push notification content from worklet reply
+- Update broken png wording
+- Discard modal loop on swipe back
+- DM controls sometimes not shown
+- Decrease setting rows spacing
+- Use store constants for join/leave call sound
+- Account list item fix
+- Unable to download media on android
+- Enable media preview fullscreen
+- Add info tooltip to remove metadata description
+- Dispatch stopAnchor actions or scroll start & skip anchors
+- Use one timer for all room items
+- Handle no space left error when picking media
+- Keyboard not closing with modal
+- Show password match error while exporting passphrase
+- Grant actions:write so nightly build can trigger build.yml
+- Dedupe low storage warning
+- Contact book issues
+- Passphrase overall UI fixes
+- Enable SHOW_EXPORT_PASSPHRASE flag
+- Pinned message anchor scroll
+- Nav header overlaps with screenshare in DM
+- Missing link preview when adding link after file attachment
+- Missing link preview when sending link with media
+- Move iOS upload-artifact after Slack status
+- Push translations
+- Foreground service timeout exception
+- File passphrase recovery page layout issue
+
 ## v4.15.0
 
 ### Features
