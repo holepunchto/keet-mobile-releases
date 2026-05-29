@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.16.1 Changelog
+
+### Fixes
+
+- Fixed search crash in rooms
+
 ## 4.16.0 Changelog
 
 ### Features
