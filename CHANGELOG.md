@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.16.2 Changelog
+
+### Fixes
+
+- Security updates and general fixes
+
 ## 4.16.1 Changelog
 
 ### Fixes
