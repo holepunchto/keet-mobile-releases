@@ -1,5 +1,67 @@
 # Changelog
 
+## 4.17.0 Changelog
+
+### Features
+- Update new design and added new changes related to anchor
+- Add unread filter tab to room list
+- Search public rooms
+- Private mode
+
+### Improvements
+- Support "mark as read" for rooms with unread counter
+- Dm member reconnecting
+- Update Translations
+- Screenshare rotation
+- Contact book edge cases
+- Sync Manual Setup flow to Figma - navigation
+- Switch selectors to anchor counts
+- Update unread banner selector
+- Layout and styling for Private reveal modal
+- Hide message content when reply/forward and system events in Private mode
+- Anchor updates with no count
+- Update unrtead message text
+- Backup file save locations
+- Call video quality
+
+### Fixes
+- Passphrase overall UI fixes
+- Pinned message anchor scroll
+- DM request message whitespace trimmed
+- Nav header overlaps with screenshare in DM
+- Missing link preview when adding link after file attachment
+- Missing link preview when sending link with media
+- Align clipboard paste image sheet with Figma design
+- Push translations
+- Remove current room id check to close join group chat screen
+- Foreground service timeout exception
+- File passphrase recovery page layout issue
+- Remove media preview background
+- Resolve `contactInfo` from member-list and member state
+- Sharing multiple photos with the same filename sends the same image
+- Add missing icons
+- Text input jump on long text edit
+- Export ui logs trigger
+- Disable paste natively
+- Remove safe area, reset isPickerOpenRef in finally
+- Add NSMotionUsageDescription for iOS camera motion access
+- Unread counter bug when lss is skipped on non-live mode.
+- Verify recovery selected index bug
+- Paste long text
+- Pin messages under header
+- Dispatch download progress on completed
+- Align photo picker permission states with Figma
+- Unable to join public room
+- Profile invite link layout issue
+- Parse link invitation
+- Restore long-press menu first tap on Android
+- Use download progress from core
+- Reveal pinned and search message in private mode on tap
+- Add avatar for public room search
+- vibrate on + media press
+- stop previous video on swipe in media preview
+- duplicated toast
+
 ## 4.16.2 Changelog
 
 ### Fixes
