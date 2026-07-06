@@ -1,5 +1,48 @@
 # Changelog
 
+## 4.18.0 Changelog
+
+### Features
+- Support for direct message translation to and from English using QVAC AI
+- Support snooze notifications in app, feature to be enabled after app update on July 7th
+- Mod now can hide group invite in group,  feature to be enabled after app update on July 7th
+- Rename linked device with new UI,  feature to be enabled after app update on July 7th 
+
+### Improvements
+- Improve DM video/audio call default settings
+- Improve layout and styling for private mode
+- Improve UI in manual setup. sync identity, quick setup
+- Update unread banner
+- Hide message content when reply & forward and system events in private mode
+- Add recording indicator status for everyone
+- Improve screenshare rotation
+- Improve render first unread item and anchor position update
+- Improve UX for inactive calls
+- Show @mention and emoji autocomplete above the media picker
+- Improve and update recent emoji’s
+
+### Fixes
+- Fix unable to join public room
+- Fix profile invite link layout issue
+- Fix UI styling for search results
+- Restore long-press menu first tap on Android
+- Fix download progress issue
+- Reveal pinned and search message in private mode on tap
+- Add avatar for public room search
+- Fix device name not displayed when removed
+- Fix timestamp alignment
+- Fix clicking on the event shows the wrong profile
+- Fix DM Call controls rotatopm on non screenshare
+- Fix different back action
+- Show file name in chat search results
+- Fix last word not rendered in own messages on Android
+- Stop showing error banner multiple times
+- Fix Turning off the cam turns off loud speaker
+- Fix Two devices starting a call at the same time blocks entering the call
+- Fix In app call rings when device is on silent
+- Fix Inactive call toast auto closes and timer is extended
+- Fix when accepting the Audio call in DM camera should be off
+
 ## 4.17.1 Changelog
 
 ### Fixes
