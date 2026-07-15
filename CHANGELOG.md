@@ -1,5 +1,42 @@
 # Changelog
 
+## 4.19.0 Changelog
+
+### Features
+- Can use biometric on launch to unlock Keet
+- Show user typing status indicator in DM
+- Allow Mod+ to dismiss reviewed reported content
+
+### Improvements
+- Message translation improvements and bug fixes
+- Improve UI for media preview and bottom
+- Improve UI for profile settings and user profile
+- Improve UI for clear cache
+- Improve UI for edit group
+- Improve UI for media player, image preview
+- Improve blocked member avatar
+- Improve UI for invite QR
+- Improve UI for for admin leave, DM and Room option modal
+- Redesign start chat into a multi-step bottom sheet
+
+### Fixes
+- Fix in app call rings when device is on silent
+- Fix black keyboard gap when swiping back from chat
+- Fix inactive call toast auto closes and timer is extended
+- Fix when accepting the audio call in DM camera should be off
+- Fix increase pasted image spacing
+- Fix Navigation warning
+- Remove portrait of camera activity
+- Network settings state refactor
+- Fix new action to act based on chat state
+- Fix Dm request flashlist scroll position
+- Fix can’t hang up call
+- Fix mention color theme for admin & mod
+- Fix send DM request UI overflowing the nav and keyboard
+- Remove entering animation of search results
+- Show translate option for text and file message
+- Fix DM typing indicator not shown sometimes, and improve animation
+
 ## 4.18.0 Changelog
 
 ### Features
