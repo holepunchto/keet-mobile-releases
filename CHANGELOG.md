@@ -1,5 +1,41 @@
 # Changelog
 
+## 4.20.0 Changelog
+
+### Features
+- Show the contact indicator when a user is in contacts
+- To manage downloaded translation languages in settings
+
+### Improvements
+- Improve to load unread messages animation smoothly
+- Stop room list re-rendering on room enter/back
+- Improve the flow for showing error for the wrong invite link
+- Improve proximity sensor is not working on android
+- Improve on room audio player and voice recorder
+- Improve characters left hint on group name input
+- Improve the toggle in settings
+- Improve on complete the upload indicator before hiding it
+- Show hyperdht version on software screen
+
+### Fixes
+- Fix broadcast room name instead of the sender name
+- Show pinned screen bottom for not loaded messages
+- Fix mention color for admin & mod
+- Fix send DM request UI overflowing the nav and keyboard
+- Fix entering animation of search results
+- Fix loading dialog stuck issue
+- Show translate option for text and file message
+- Fix Room avatar square & avatar opacity in private mode
+- Fix Media preview covering os nav bar and metadata unreadable
+- Fix blocked user’s avatar too small issue
+- Fix & improve DM typing indicator not shown sometimes and animation
+- Update translate UI
+- Show toast for download timed out
+- Add bottom spacing to search language modal
+- Stop typing indicator after message send
+- Fix member name box overflow
+- Fix Contrast is too low on the rotate image menu to rotate avatars
+
 ## 4.19.0 Changelog
 
 ### Features
