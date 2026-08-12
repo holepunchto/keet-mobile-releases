@@ -1,5 +1,37 @@
 # Changelog
 
+## 4.21.0 Changelog
+
+### Features
+- Enjoy more reliable calls with improved connectivity
+- Easier onboarding from Keet invites - smoother path to download Keet and join.
+
+### Improvements
+- Complete the upload indicator to 100% before hiding it
+- Not show Contact Indicator on Broadcast room
+- Update Contact Indicator for DM room
+- Not show admin/mod name in broadcast room
+- Improve network status UI
+
+### Fixes
+- Fix header contact indicator overflow with long display names
+- Update Translation package for android
+- Fix Image picker gesture
+- Fix Anchor scroll stuck issue
+- Fix Call button label UI when joining a group call
+- Add call video limits
+- Fix answer DM call not navigate to call screen issue
+- Fix IOS cannot switch to phone audio when BT device is connected issue
+- Fix DM call connected and navigation fixes
+- Fix DM ring timeout no longer declines the call issue
+- Fix call preview video flicker issue
+- Fix call tiles ordering
+- Fix DM video stays black after toggling video during ring issue
+- Fix member name tile overflow and improve dm connection status
+- Fix missing a DM call cannot start call again issue
+- Fix DM dial tone silent after first call on iOS issue
+- Fix message overflow width when reacted with messages issue
+
 ## 4.20.0 Changelog
 
 ### Features
