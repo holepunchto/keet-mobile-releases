@@ -1,5 +1,40 @@
 # Changelog
 
+## 4.22.0 Changelog
+
+### Features
+- Autobee engine update to bring faster room sync, better indexing & improve performance to all rooms dramatically.(Your first time entering the room will trigger an upgrade to the new Autobee engine. Please allow a brief moment for the update to finish before enjoying the enhanced performance.)
+- Can snooze chat notification for room
+- Support poll feature
+
+### Improvements
+- Update network status UI
+- Add contact Indicator for member & mention list
+- Enable media section and prompt delete warning
+- Improve header contact indicator overflow
+- Reorder chat event options
+- Add new joined tag to public searched room
+- Update anchor scroll processing
+- Update privacy & terms link
+- Add DM header with network status and contact indicator
+- Update group settings user experience flow
+- Add speaking indicators to calls
+- Close Keyboard when calling
+- Dismiss keyboard on lobby search results scroll
+
+### Fixes
+- Fix for intermittent push notification issue on mobile in new groups
+- Fix anchor scroll stuck issue
+- Fix join call button when joining a group call
+- Update reactions UI
+- Disable audio track in call preview to avoid video flicker
+- Fix pinned message header text segments
+- Fix text overflow when showing both Network and Contact indicators
+- Fix mirror own video stream on rear camera
+- Adjust qr scanner default zoom level, add pinch to zoom
+- Hide media from blocked/reported member on media Preview
+- Fix swipe direction in media & files section
+
 ## 4.21.0 Changelog
 
 ### Features
