@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.22.2 Changelog
+
+### Fixes
+- Fix legacy room views opening with incorrect shared storage across rooms.
+
 ## 4.22.0 Changelog
 
 ### Features
