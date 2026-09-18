@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.22.3 Changelog
+
+### Fixes
+- Fix legacy profile migrations getting stuck when required data must be fetched from a peer
+
 ## 4.22.2 Changelog
 
 ### Fixes
