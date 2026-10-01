@@ -1,6 +1,6 @@
 # Keet Mobile App
 
-[![Bug Bandits](https://img.shields.io/badge/Bug%20Bandits-🐞-D1E231)](https://holepunchto.github.io/invite/#yfoios17dgbdhoyizg1er4zdsay9admk4oo3meh4j1tawqx4fw5scmysf93per7subcttbhrjuoiriey7b65sh5yrdmhpape7j7f4d7s51kfur9wwwrkwb8ms31n9ro1h467iqq4orw945do88oxztmpfoznnye)
+[![Bug Bandits](https://img.shields.io/badge/Bug%20Bandits-🐞-D1E231)](https://keet.io/chat/#bny3fyw8j1e59ba8h9yg7cbryerceju3rid6bf6ejbtu5mnjydu4hu1axximmi4yyrgnbiphcr7z49b6cwus8abzybekkjm59snsxwcu8n8putjnmaykb5i1hdrihsgewugkco176ft55bs6d4n7d8tfx9n5kyjhxiptw96ke4xuaejn13cfx8qfsnsaej79dbgd1w6g81qwjr51we)
 
 Release download link: https://github.com/holepunchto/keet-mobile-releases/releases
 
