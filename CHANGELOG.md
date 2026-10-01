@@ -1,5 +1,53 @@
 # Changelog
 
+## 4.23.1 Changelog
+
+### Fixes
+- Fixes translation messages crash.
+- Self push notification issue.
+
+## 4.23.0 Changelog
+
+### Features
+- Discover nearby users and chat offline via Bluetooth.
+- React with emojis during calls.
+- Share Keet APK offline directly to another device via Bluetooth (Android GH build only)
+
+### Improvements
+- Able to end DM call for all linked devices
+- Improve contact Indicator for mentioned message
+- Update message time stamp
+- File option greyed out when mod+ disables file sharing
+- Improve DM request room UI
+- Show error and stop processing for invalid scanned QR codes
+- Keep the mobile video ratio to its original
+- Support cancelling a file send while in progress
+- Improve 2 steps confirming when click on link with don’t show me again option
+- Update unread seperator UI
+- Add Chats, Peers, Communities filter tabs to search
+- Allow more link previews per message
+- Drop speaking indicator in DM calls
+- UI update for call controls in landscape mode
+- Enable landscape mode
+- Update removed member UI 
+
+### Fixes
+- Show preview thumbnail for unplayable video formats on iOS
+- Fix notification body for location-shared message
+- Fix history not loading while the list is being dragged
+- Update removed member UI 
+- Keep screen awake while recording video
+- Fix warning component text truncate
+- Fix ID linking with QR is invalid
+- Keep camera session across capture and retake
+- Keep chat input above keyboard after forwarding media to the same room
+- Disable sound when device is in silent mode
+
+## 4.22.5 Changelog
+
+### Fixes
+- Fixes a series of stability issues.
+
 ## 4.22.4 Changelog
 
 ### Fixes
