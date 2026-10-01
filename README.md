@@ -4,7 +4,7 @@
 
 Release download link: https://github.com/holepunchto/keet-mobile-releases/releases
 
-Or you can download Keet Apk from [Keet APK](https://holepunchto.github.io/invite/#yfo6nemwt5oik3k3hnadrzbdz4txwdghpdt3zrhrd1wycynkn88keu6anj77ohjd8w3hfdmsbw8pe5mazk5by7tq89s6fz5ihyj47wzic9z55utdbp5ae7d6aj4qmsqph1zdza99gqjr945eamjsrxxfkmuzkye) group.
+Or you can download Keet Apk from [Keet APK](https://keet.io/chat/#gfo6nemwt5oik3k3hnadrzbdz4txwdghpdt3zrhrd1wycynkn88keu4enc33tnxgy9qnejy1p1m91g84eb9xp5i7dksuckjzkwghymozs3oyqsqjpzyiahe8ie9s6j755f6b18pbkjuwmo7if1y8kxo3gxzjhyedrjy3o71jakay1gd6t9cjyudsb8o4eya) group.
 
 
 You can download the latest official Keet Android `apk` here.
