@@ -1,5 +1,38 @@
 # Changelog
 
+## 4.24.0 Changelog
+
+### Features
+- Set custom contact alias for your contacts
+- Manage your blocked member list
+- More options for notification and sounds
+- Attach and remove link previews after sending
+
+### Improvements
+- Improve the current camera limit for call with an adaptive limit
+- Improve the system default device in call pickers
+- Improve confirmation modal when stripping metadata fails
+- Show full dates for older messages
+- Close message row menus when the chat is scrolled
+- Improve “Notify me about” menu and blue ticks in menus
+- Remove feedback and error reporting forms
+- Improve reconnect sound for DM calls
+- Improve call reactions in collapsed view
+- Update timestamps when timezone changes
+
+### Fixes
+- Handle messages stuck in sending state
+- Fix oversized dialog buttons
+- Fix menu hover highlighting rows issue
+- Hide blocked member avatar in chat
+- Fix profile and room-invite QR codes margin
+- Fix navigation when clicking members in chat/reports
+- Fix removed member can’t be clicked issue
+- Fix camera/mic permission issue
+- Fix mentions render blurred in pinned messages
+- Fix update app button unresponsive in MacOS
+- Adjust overflowing with big words and buttons
+
 ## 4.23.1 Changelog
 
 ### Fixes
