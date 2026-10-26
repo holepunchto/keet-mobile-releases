@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.24.1 Changelog
+
+### Fixes
+- General bug fixes and stability improvements
+
 ## 4.24.0 Changelog
 
 ### Features
