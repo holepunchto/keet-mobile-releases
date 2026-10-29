@@ -1,5 +1,36 @@
 # Changelog
 
+## 4.25.0 Changelog
+
+### Features
+- Share contacts easily in chat.
+- Add private notes to contacts.
+- Automatic adjustment of group call video quality to maintain performance based on internet connections.
+- Promote peers to administrators through the members permissions section.
+- Add quick share shortcuts to easily send content to recent conversations.
+
+### Improvements
+- Highlight mentions/links in input-box.
+- Play reconnecting sound in DM.
+- Scan QR as primary action and share icon in nav bar on profile QR screen.
+- HEIC and AVIF are now supported file types for media metadata removal.
+- Show hint when metadata stripping fails before sending image.
+- Improve blocked members UI.
+- Add the All search filter to room search.
+
+### Fixes
+- Add voice message type for voice recordings.
+- Fix reply quote shrink to the media bubble width.
+- Fix the iOS 18 app lock so Keet never asks for Face ID twice.
+- Stop reloading room media thumbnails on fast scroll.
+- Show chat date below pinned header.
+- Prevent double rotation in landscape mode.
+- Update message notification text in settings.
+- Show bluetooth permission on nearby instead of crashing.
+- Fix photo picker columns.
+- Show file options for a file sent with a link preview.
+- Fix photo picker taps trigger voice recording.
+
 ## 4.24.1 Changelog
 
 ### Fixes
