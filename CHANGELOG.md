@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.25.1 Changelog
+
+### Fixes
+- Fixed an issue causing errors when mentioning users in group chats and affecting app performance.
+
 ## 4.25.0 Changelog
 
 ### Features
