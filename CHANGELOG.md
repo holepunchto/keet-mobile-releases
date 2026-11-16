@@ -1,5 +1,47 @@
 # Changelog
 
+## 4.26.0 Changelog
+
+### Features
+- New onboarding flow: single intro, user name suggestion & profile setup, welcome and start chat
+- Are you speaking while you muted pop up hint
+
+### Improvements
+- Can share a contact from the user profile
+- New boot splash animation
+- Able to check app store updates in app and update directly
+- Improve user flow for bluetooth toggle on/off
+- Improve media viewer gallery
+- Improve on-media video controls in the media viewer
+- Improve open profile from contact card
+- Hide rooms filter when the profile has no rooms
+- Improve reactions with new emojis picker
+- Update list display UI
+- Improve play chat media while its message is on screen
+- Show the empty room banner to every member
+
+### Fixes
+- Fix scroll filter pills horizontally on large font sizes
+- Fix date chip flicker when reached top and update UI
+- Fix Android 10 and below does not show unsupported when ble is not enabled
+- Fix picker emojis inside cells on large font sizes
+- Allow font scaling for contact icon
+- Keep keyboard up when app cover shows on window blur
+- Fix room title for mod+ media in broadcast room
+- Update skeleton rows while the room list loads
+- Update profile contact list based on active DM
+- Fix uploading files not block sending messages
+- Fix duplicate notifications issues
+- Fix input line height to prevent text jumping
+- Fix camera capture landscape layout
+- Fix mention list pushes chat list up when shown
+- Fix username input clipped on large font scale in profile setup
+- Fix DM Request from profile search missing avatar image
+- Fix rendering of removed members in chat and lobby
+- Remove the double image and jump when the media viewer closes
+- Fix Ui jumps when opening the reaction panel in the call
+- Fix replied/replying message UI issues
+
 ## 4.25.1 Changelog
 
 ### Fixes
