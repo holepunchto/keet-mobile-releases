@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.26.3 Changelog
+
+### Fixes
+- General bug fixes and stability improvements.
+
 ## 4.26.2 Changelog
 
 ### Fixes
